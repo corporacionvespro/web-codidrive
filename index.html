@@ -1,0 +1,1022 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Codi Drive</title>
+    <link rel="stylesheet" href="css/agency.css" />
+    <link rel="icon" href="https://vespro.pe/codidrive/img/logocodi.png">
+    <meta name="description" content="App de taxi">
+    <link rel="apple-touch-icon" href="https://vespro.pe/codidrive/img/logocodi.png">
+    <!--<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">-->
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.12.1/css/all.css" crossorigin="anonymous">
+
+    <script src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU=" crossorigin="anonymous">
+        </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+        </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+        </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js"
+        integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous">
+        </script>
+    <script src="js/bootstrap.min.js"></script>
+
+
+    <noscript>
+        <img height="1" width="1" style="display:none"
+            src="https://www.facebook.com/tr?id=666046620872009&ev=PageView&noscript=1" />
+    </noscript>
+    <!-- End Facebook Pixel Code -->
+    <style>
+        .nav-item {
+            margin-right: 2vw;
+            margin-left: 2vw;
+        }
+
+        .colorb {
+            background-color: #01286b;
+            border-radius: 20px;
+            padding-top: 1px;
+            padding-bottom: 2px;
+        }
+    </style>
+</head>
+
+<body id="page-top">
+
+
+
+
+
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLabel">Codi Empresa</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Este servicio es exclusivamente para empresas inscritas al programa de Codi para empresas,
+                    si ya estas afiliado puedes aceptar eingresar al sistema, y si aun no eresparte del programa puedes
+                    afiliarte
+                </div>
+                <div class="modal-footer">
+                    <a type="button" href="http://codidrive.com/vespro" class="btn btn-primary">Soy afiliado</a>
+                    <a type="button" href="#registro" class="btn btn-primary">Deseo afiliarme</a>
+                    <a type="button" class="btn btn-secondary" data-dismiss="modal">Denegar</a>
+                    <!--<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>-->
+                    <!--<button type="button" class="btn btn-primary">Save changes</button>-->
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+    <nav class="navbar navbar-toggleable-md fixed-top" id="mainNav">
+        <div class="container-fluid text-center">
+            <!--<div class="d-inline alinear" id="navbarResponsive">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link btn-contactanos container" href="http://codidrive.com/vespro">
+                            Empresas
+                        </a>
+                        <button type="button" class="btn btn-primary colorb" data-toggle="modal"
+                            data-target="#exampleModal">
+                            Empresas
+                        </button>-->
+            <!-- Button trigger modal 
+                       
+                    </li>
+                </ul>
+            </div>-->
+            <a class="navbar-brand" href="#page-top">
+                <img src="img/icon.png" />
+            </a>
+
+            <div class="d-inline alinear" id="navbarResponsive">
+                <ul class="navbar-nav ">
+                    <li class="nav-item">
+                        <a class="nav-link btn-contactanos container"
+                            href="https://api.whatsapp.com/send?phone=51967075303&text=Hola, me gustaría obtener información de Codi App.">
+                            Contáctanos
+                        </a>
+
+
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+
+    </nav>
+    <header class="masthead">
+        <div class="container-fluid" style="overflow-x: hidden; overflow-y: hidden;">
+            <div class="row justify-content-center align-items-center">
+                <div class="col col-md-6 col-lg-6">
+                    <div class="intro-1">Viaja con Codi Drive</div>
+                    <!-- <div class="intro-2">Una nueva forma<br>de movilizarte</div> -->
+                    <div class="intro-3"><b>Aplicación de taxi</b></div>
+                    <div class="intro-4">Que une pasajeros y conductores de forma rápida y segura.</div>
+                    <!-- <div class="row justify-content-right">
+                        <a class="android btn-primary" href="https://play.google.com/store/apps/details?id=codi.passenger">Descárgalo aquí</a>
+                    </div> -->
+                </div>
+                <div class="col-8 col-md-5 col-xl-4">
+                    <img class="img-fluid" src="img/img_header.png" />
+                </div>
+            </div>
+            <div class="ciudad"></div>
+        </div>
+    </header>
+    <div id="introduccion">
+        <img class="fondo_introduccion1_movil" src="img/fondo_introduccion1.png" />
+        <img class="fondo_introduccion3_movil" src="img/fondo_introduccion3.png" />
+        <img class="fondo_introduccion1_pc" src="img/fondo_introduccion4.png" />
+        <div class="container">
+            <div class="row justify-content-center">
+                <div class="col col-md-8 col-xl-10">
+                    <div class="row justify-content-center">
+                        <h1 class="titular-pregunta text-center">¿Qué es Codi?</h1>
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="col-9 col-sm-12 subtitulo text-center">Es una comunidad de personas que apuestan por
+                            el desarrollo de nuevas tecnologías, que ayudan a mejorar la calidad de vida de los seres
+                            humanos, haciendo uso de la economía colaborativa, hemos desarrollado una plataforma que
+                            permite conectar pasajeros y conductores de forma rápida y segura.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center" style="position: relative;">
+                <div class="col-11 col-md-10 col-lg-10">
+                    <iframe class="video" poster="img/poster.png" src="https://www.youtube.com/embed/cAbdCqaB0_A"
+                        title="YouTube video player" frameborder="0"
+                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                        allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="beneficiosPasajero">
+        <img class="beneficiosPasajero1" src="img/beneficios_pasajero1.png" />
+        <img class="fondo_beneficiosPasajero1_pc" src="img/fondo_beneficiosPasajero1.png" />
+        <img class="fondo_beneficiosPasajero2_pc" src="img/fondo_beneficiosPasajero2.png" />
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-10 col-md-6 col-xl-7 margen">
+                    <h1 class="titular">Tu viaje con<br>más beneficios <b>.</b></h1>
+                    <div class="row invisible1" style="margin-top: 5vh;">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Aplicación completamente gratis.</p>
+                    </div>
+                    <div class="row invisible1">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Pide tu taxi con 3 clics de forma rápida y segura.</p>
+                    </div>
+                    <div class="row invisible1">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Localiza al conductor más cercano.</p>
+                    </div>
+                    <div class="row invisible1">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Conoce la duración estimada del trayecto.</p>
+                    </div>
+                    <div class="row invisible1">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Califica el servicio.</p>
+                    </div>
+                    <div class="row invisible1">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Obtén descuentos, vales, viajes gratis y más.</p>
+                    </div>
+                    <div class="row invisible1">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Comunícate de manera directa con el conductor.</p>
+                    </div>
+                    <div class="row invisible1">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Conoce el precio del servicio por adelantado.</p>
+                    </div>
+                    <div class="row invisible1">
+                        <a class="android androidPasajero btn-primary"
+                            href="https://play.google.com/store/apps/details?id=codi.drive.pasajero.chiclayo">Descárgalo
+                            Pasajero</a>
+                    </div>
+                </div>
+                <div class="col-12 text-center col-md-6 col-xl-5">
+                    <img class="img-fluid beneficiosPasajero2" src="img/beneficios_pasajero2.png" />
+                </div>
+                <div class="col-10 col-md-6 col-xl-7">
+                    <div class="row invisible2">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Aplicación completamente gratis.</p>
+                    </div>
+                    <div class="row invisible2">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Pide tu taxi con 3 clics de forma rápida y segura.</p>
+                    </div>
+                    <div class="row invisible2">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Localiza al conductor más cercano.</p>
+                    </div>
+                    <div class="row invisible2">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Conoce la duración estimada del trayecto.</p>
+                    </div>
+                    <div class="row invisible2">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Califica el servicio.</p>
+                    </div>
+                    <div class="row invisible2">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Obtén descuentos, vales, viajes gratis y más.</p>
+                    </div>
+                    <div class="row invisible2">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Comunícate de manera directa con el conductor.</p>
+                    </div>
+                    <div class="row invisible2">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="beneficio col-11"> Conoce el precio del servicio por adelantado.</p>
+                    </div>
+                    <div class="row invisible2">
+                        <a class="android btn-primary"
+                            href="https://play.google.com/store/apps/details?id=codi.drive.pasajero.chiclayo">Descárgalo
+                            Pasajero</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="oportunidadesConductor">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <img class="oportunidadesConductor1" src="img/oportunidades_conductor1.png" />
+                <div class="col-12 col-md-6 col-xl-7 uno margen">
+                    <h1 class="titular">Tecnología que crea oportunidades <b>.</b></h1>
+                    <div class="col-10 col-md-12 cuatro">
+                        <div class="row">
+                            <img class="check" src="img/check.png" class="col-1" />
+                            <p class="oportunidad col-11"> Genera constantes ingresos por la cantidad de servicios.</p>
+                        </div>
+                        <div class="row">
+                            <img class="check" src="img/check.png" class="col-1" />
+                            <p class="oportunidad col-11"> Obtén horarios flexibles.</p>
+                        </div>
+                        <div class="row">
+                            <img class="check" src="img/check.png" class="col-1" />
+                            <p class="oportunidad col-11"> Captas clientes de forma rápida y segura.</p>
+                        </div>
+                        <div class="row">
+                            <img class="check" src="img/check.png" class="col-1">
+                            <p class="oportunidad col-11"> Sistema de pagos en efectivo.</p>
+                        </div>
+                        <div class="row">
+                            <img class="check" src="img/check.png" class="col-1" />
+                            <p class="oportunidad col-11"> Comunícate de manera directa con el pasajero, a través de
+                                llamada telefónica, en caso requiera.</p>
+                        </div>
+                        <div class="row">
+                            <img class="check" src="img/check.png" class="col-1" />
+                            <p class="oportunidad col-11"> No hay cobros adicionales por descarga del aplicativo.</p>
+                        </div>
+                        <div class="row">
+                            <img class="check" src="img/check.png" class="col-1" />
+                            <p class="oportunidad col-11"> Obtienes menores tarifas de comisión cuando la calificación
+                                de conductor sea mayor.</p>
+                        </div>
+                        <div class="row justify-content-right">
+                            <a class="android btn-primary"
+                                href="https://play.google.com/store/apps/details?id=codi.drive.conductor.chiclayo">Descárgalo
+                                Conductor</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6 col-xl-5 text-center dos">
+                    <img class="img-fluid oportunidadesConductor2" src="img/oportunidades_conductor2.png" />
+                </div>
+                <div class="col-10 col-md-6 col-xl-7 tres">
+                    <div class="row">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="oportunidad col-11"> Genera constantes ingresos por la cantidad de servicios.</p>
+                    </div>
+                    <div class="row">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="oportunidad col-11"> Obtén horarios flexibles.</p>
+                    </div>
+                    <div class="row">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="oportunidad col-11"> Captas clientes de forma rápida y segura.</p>
+                    </div>
+                    <div class="row">
+                        <img class="check" src="img/check.png" class="col-1">
+                        <p class="oportunidad col-11"> Sistema de pagos en efectivo.</p>
+                    </div>
+                    <div class="row">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="oportunidad col-11"> Comunícate de manera directa con el pasajero, a través de llamada
+                            telefónica, en caso requiera.</p>
+                    </div>
+                    <div class="row">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="oportunidad col-11"> No hay cobros adicionales por descarga del aplicativo.</p>
+                    </div>
+                    <div class="row">
+                        <img class="check" src="img/check.png" class="col-1" />
+                        <p class="oportunidad col-11"> Obtienes menores tarifas de comisión cuando la calificación de
+                            conductor sea mayor.</p>
+                    </div>
+                    <div class="row justify-content-right">
+                        <a class="android btn-primary"
+                            href="https://play.google.com/store/apps/details?id=codi.drive.conductor.chiclayo">Descárgalo
+                            Conductor</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="forma_uso" class="container col-12">
+        <div class="row justify-content-center">
+            <div class="col-12 justify-content-center">
+                <div class="row col-md-8 align-items-center justify-content-center mx-auto">
+                    <img class="img-titular col-12 col-md-10 img-fluid" src="img/titular.png">
+                </div>
+                <div class="row align-items-center justify-content-center">
+                    <div class="col-12 col-md-6 col-xl-4">
+                        <img class="img-fluid botones1" src="img/forma_uso.png" />
+                    </div>
+                    <div class="accordion col-md-6" id="accordionBotones">
+                        <div id="headingOne">
+                            <div class="item row col-12 justify-content-center" data-toggle="collapse"
+                                data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                <div class="col-sm-7 col-md-12 col-lg-9 card border-0 card-item card-shadow1">
+                                    <div class="row align-items-center contenido-card">
+                                        <div class="card border-0 card-icon card-shadow2">
+                                            <img class="icono" src="img/menu.png" />
+                                        </div>
+                                        <p class="texto3">Menú</p>
+                                        <img class="btn-mas" src="img/mas.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseOne" class="collapse col-lg-10 col-xl-9" aria-labelledby="headingOne"
+                            data-parent="#accordionBotones">
+                            <div class="card-body">
+                                Encuentras botones que te permitirán usar la aplicación de forma fácil:
+                                <br>
+                                <img src="img/check.png" class="check" />
+                                Perfil
+                                <br>
+                                <img src="img/check.png" class="check" />
+                                Mapa
+                                <br>
+                                <img src="img/check.png" class="check" />
+                                Lugares recomendados
+                                <br>
+                                <img src="img/check.png" class="check" />
+                                Historial de servicios
+                                <br>
+                                <img src="img/check.png" class="check" />
+                                Acerca de Codi App
+                                <br>
+                                <img src="img/check.png" class="check" />
+                                Compartir App.
+                            </div>
+                        </div>
+                        <div id="headingTwo">
+                            <div class="item row col-12 justify-content-center" data-toggle="collapse"
+                                data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                <div class="col-sm-7 col-md-12 col-lg-9 card border-0 card-item card-shadow1">
+                                    <div class="row align-items-center contenido-card">
+                                        <div class="card border-0 card-icon card-shadow2">
+                                            <img class="icono" src="img/ubicacion.png" />
+                                        </div>
+                                        <p class="texto3">Mi ubicación</p>
+                                        <img class="btn-mas" src="img/mas.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseTwo" class="collapse col-lg-10 col-xl-9" aria-labelledby="headingTwo"
+                            data-parent="#accordionBotones">
+                            <div class="card-body">
+                                Te permite desplazarte por todo el mapa con total libertad, y al presionar el botón "mi
+                                ubicación" regresas a tu ubicación actual.
+                            </div>
+                        </div>
+                        <div id="headingThree">
+                            <div class="item row col-12 justify-content-center" data-toggle="collapse"
+                                data-target="#collapseThree" aria-expanded="true" aria-controls="collapseThree">
+                                <div class="col-sm-7 col-md-12 col-lg-9 card border-0 card-item card-shadow1">
+                                    <div class="row align-items-center contenido-card">
+                                        <div class="card border-0 card-icon card-shadow2">
+                                            <img class="icono" src="img/bandera.png" />
+                                        </div>
+                                        <p class="texto3">Lugar de destino</p>
+                                        <img class="btn-mas" src="img/mas.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseThree" class="collapse col-lg-10 col-xl-9" aria-labelledby="headingThree"
+                            data-parent="#accordionBotones">
+                            <div class="card-body">
+                                Define manualmente el destino, desliza el mapa a voluntad y detente en el lugar a donde
+                                quieres ir.
+                            </div>
+                        </div>
+                        <div id="headingFour">
+                            <div class="item row col-12 justify-content-center" data-toggle="collapse"
+                                data-target="#collapseFour" aria-expanded="true" aria-controls="collapseFour">
+                                <div class="col-sm-7 col-md-12 col-lg-9 card border-0 card-item card-shadow1">
+                                    <div class="row align-items-center contenido-card">
+                                        <div class="card border-0 card-icon card-shadow2">
+                                            <img class="icono" src="img/avion.png" />
+                                        </div>
+                                        <p class="texto3">Lugares favoritos</p>
+                                        <img class="btn-mas" src="img/mas.png" />
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div id="collapseFour" class="collapse col-lg-10 col-xl-9" aria-labelledby="headingFour"
+                            data-parent="#accordionBotones">
+                            <div class="card-body">
+                                Desde este botón accede a tus lugares favoritos, agregándolos después de cada servicio.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="pasos">
+        <img class="fondo_pasos1_pc" src="img/linea_gris.png">
+        <img class="fondo_paso1_pc" src="img/fondo_paso1.png">
+        <img class="fondo_paso2_pc" src="img/fondo_paso2.png">
+        <div class="row pie">
+            <img class="fondo2" src="img/fondo2.png" />
+            <div class="container-fluid align-items-right" style="z-index: 100;">
+                <div class="col-12 col-md-11 col-lg-11">
+                    <p class="texto4-pasos">Pide tu taxi en <br>sólo 3 pasos</p>
+                    <hr
+                        style="background-color: #00d1d6; width: 3vw; height: 0.5vh; border-width: 0; z-index: 100; margin-right: 0; margin-top: 0;">
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid pasos-detalle">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-10 col-md-5 col-xl-4 uno">
+                    <h1 class="numeroPaso">01</h1>
+                    <h2 class="tituloPaso">Ingresa a CODI</h2>
+                    <h3 class="contenidoPaso">Habilita los permisos y activa tu ubicación, después abre la aplicación.
+                    </h3>
+                </div>
+                <div class="col-10 col-md-5 col-xl-4 dos">
+                    <img class="imagenPaso" src="img/paso1.png" />
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-10 col-md-5 col-xl-4 tres">
+                    <h1 class="numeroPaso">02</h1>
+                    <h2 class="tituloPaso">¿A dónde quieres ir?</h2>
+                    <h3 class="contenidoPaso">Define tu lugar de destino y luego la aplicación trazará la ruta más
+                        óptima, después pulsa "Aceptar".</h3>
+                </div>
+                <div class="col-10 col-md-5 col-xl-4 cuatro">
+                    <img class="imagenPaso" src="img/paso2.png" />
+                </div>
+            </div>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-10 col-md-5 col-xl-4 cinco">
+                    <h1 class="numeroPaso">03</h1>
+                    <h2 class="tituloPaso">Disfruta tu viaje</h2>
+                    <h3 class="contenidoPaso">La plataforma te asignará el taxi más cercano, el cual te notificará
+                        cuando haya llegado al lugar donde te encuentras, sube a la unidad y <b>¡Disfruta tu viaje!</b>
+                    </h3>
+                </div>
+                <div class="col-10 col-md-5 col-xl-4 seis">
+                    <img class="imagenPaso" src="img/paso3.png" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="experiencia">
+        <img class="fondo_experiencia_pc" src="img/linea_gris.png">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1 class="titular col-lg-6 col-xl-10">Finalmente,<br>cuéntanos tu experiencia<br>al terminar el
+                    servicio <b>.</br></h1>
+            </div>
+            <div class="row">
+                <img class="mensaje" src="img/mensaje.png" />
+            </div>
+            <div class="row">
+                <div class="card border-0 card-shadow">
+                    <h2 class="subtitulo">Su opinión...</h2>
+                    <p class="contenido1">¿Qué te pareció el servicio?<br>¿Cómo podríamos mejorarlo?</p>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <h1 class="titular col-lg-6">Califica el servicio <b>.</b></h1>
+            </div>
+        </div>
+        <div class="calificacion col-12">
+            <!-- <div class="row justify-content-center">
+                <p class="contenido2">Valora el servicio recibido.</p>
+            </div> -->
+            <div class="row justify-content-center">
+                <div class="col-12">
+                    <div class="row justify-content-center">
+                        <p class="contenido3">Excelente</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_azul.png" />
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="contenido3">Bueno</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_gris.png" />
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="contenido3">Regular</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_gris.png" />
+                        <img class="estrella" src="img/estrella_gris.png" />
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="contenido3">No lo recomienda</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_gris.png" />
+                        <img class="estrella" src="img/estrella_gris.png" />
+                        <img class="estrella" src="img/estrella_gris.png" />
+                    </div>
+                    <div class="row justify-content-center">
+                        <p class="contenido3">Muy malo</p>
+                    </div>
+                    <div class="row justify-content-center">
+                        <img class="estrella" src="img/estrella_azul.png" />
+                        <img class="estrella" src="img/estrella_gris.png" />
+                        <img class="estrella" src="img/estrella_gris.png" />
+                        <img class="estrella" src="img/estrella_gris.png" />
+                        <img class="estrella" src="img/estrella_gris.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div id="mejores">
+        <div class="container">
+            <div class="row justify-content-center pb-5">
+                <h1 class="text-center titular-azul col-12">Mejores<br>conductores del mes</h1>
+                <h2 class="text-center subtitulo col-11">Terminamos Noviembre felicitando el esfuerzo y compromiso de:
+                </h2>
+                <div id="carouselMejoresConductores" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselMejoresConductores" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselMejoresConductores" data-slide-to="1"></li>
+                        <li data-target="#carouselMejoresConductores" data-slide-to="2"></li>
+                        <li data-target="#carouselMejoresConductores" data-slide-to="3"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="col-12 mt-3 mb-2">
+                                <div class="d-block pl-3" style="margin-bottom: -2rem;">
+                                    <div class="bg-celeste"></div>
+                                    <img class="conductores" src="img/conductor1.png" alt=""
+                                        style="border-radius: 50%;">
+                                </div>
+                                <div class="row justify-content-center my-3 mx-auto">
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                </div>
+                                <p class="text-center apellidos my-0 py-0">Sandoval Seclén</p>
+                                <p class="text-center nombres my-0 py-0">Gustavo Adolfo</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-12 mt-3 mb-2">
+                                <div class="d-block pl-3" style="margin-bottom: -2rem;">
+                                    <div class="bg-celeste"></div>
+                                    <img class="conductores" src="img/conductor2.png" alt=""
+                                        style="border-radius: 50%;">
+                                </div>
+                                <div class="row justify-content-center my-3">
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                </div>
+                                <p class="text-center apellidos w-100 my-0 py-0">Roque Castillo</p>
+                                <p class="text-center nombres w-100 my-0 py-0">Jorge Luis</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-12 mt-3 mb-2">
+                                <div class="d-block pl-3" style="margin-bottom: -2rem;">
+                                    <div class="bg-celeste"></div>
+                                    <img class="conductores" src="img/conductor3.png" alt=""
+                                        style="border-radius: 50%;">
+                                </div>
+                                <div class="row justify-content-center my-3">
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                </div>
+                                <p class="text-center apellidos w-100 my-0 py-0">Seclén Zamora</p>
+                                <p class="text-center nombres w-100 my-0 py-0">José Luiyi</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="col-12 mt-3 mb-2">
+                                <div class="d-block pl-3" style="margin-bottom: -2rem;">
+                                    <div class="bg-celeste m-0"></div>
+                                    <img class="conductores" src="img/conductor4.png" alt=""
+                                        style="border-radius: 50%;">
+                                </div>
+                                <div class="row justify-content-center my-3">
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                    <img class="estrella mx-1" src="img/estrella_azul.png" />
+                                </div>
+                                <p class="text-center apellidos w-100 my-0 py-0">Castillo Ojeda</p>
+                                <p class="text-center nombres w-100 my-0 py-0">Luis Manuel</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <hr class="col-8 my-5 mx-md-2 mx-lg-5" style="height:1.5px; background-color: #607985">
+            </div>
+        </div>
+    </div>
+
+    <div id="registro">
+        <div class="container">
+            <div class="row justify-content-center">
+                <h1 class="titular text-center">Sé un conductor Codi<br>y genera tus propias ganancias <b>.</b></h2>
+            </div>
+            <div class="row justify-content-center">
+                <p class="uno contenido">Únete a nuestra comunidad y formemos juntos el futuro de la movilidad urbana.
+                </p>
+            </div>
+            <div class="row align-items-center">
+                <form class="col-md-6" name="formulario" id="frm-contacto" action="../email.php" method="POST">
+                    <div class="row justify-content-end">
+                        <div class="col col-md-12 align-items-center justify-content-center margen">
+                            <div class="row justify-content-center">
+                                <p class="dos contenido">Únete a nuestra comunidad y formemos juntos el futuro de la
+                                    movilidad urbana.</p>
+                            </div>
+                            <div
+                                class="form-group has-feedback has-feedback-left align-items-center justify-content-center">
+                                <div class="col-auto">
+                                    <label class="sr-only" for="nombre">Nombres:</label>
+                                    <input type="text" name="nombre" class="form-control" id="nombre"
+                                        placeholder="Nombres:">
+                                </div>
+                                <div class="col-auto">
+                                    <label class="sr-only" for="empresa">DNI:</label>
+                                    <input type="text" name="empresa" class="form-control" id="empresa"
+                                        placeholder="DNI:">
+                                </div>
+                                <div class="col-auto">
+                                    <label class="sr-only" for="celular">Whatsapp:</label>
+                                    <input type="text" name="celular" class="form-control" id="celular"
+                                        placeholder="Whatsapp:">
+                                </div>
+                                <div class="col-auto">
+                                    <label class="sr-only" for="correo">Modelo de auto:</label>
+                                    <input type="text" name="correo" class="form-control" id="correo"
+                                        placeholder="Modelo de auto:">
+                                </div>
+                                <button id="btn-enviar" class="btn btn-primary btn-block">Regístrate para
+                                    conducir</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+                <div class="container-fluid col-md-6">
+                    <div class="row">
+                        <img class="img-fluid img-registro" src="img/registro.png" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- <div id="registro"> -->
+    <div id="registroempresa" class="container-fluid pt-5">
+        <div class="row justify-content-center mt-5 pt-5">
+            <h1 class="titular text-center mt-5">¿Tienes un negocio y requieres<br>la entrega de tus productos?<b>.</b>
+                </h2>
+        </div>
+        <div class="row justify-content-center">
+            <p class="uno contenido">Regístrate aquí:</p>
+        </div>
+        <div class="container-fluid mx-lg-5 px-lg-5">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-md-4 mr-lg-5 pr-lg-5">
+                    <div class="row">
+                        <img class="img-fluid img-registro" src="img/registro_empresas.png" />
+                    </div>
+                </div>
+                <form class="col-md-4 ml-5 pl-5" name="formulario" id="frm-empresa" action="ajax-correo.php"
+                    method="POST">
+                    <div class="row justify-content-end">
+                        <div class="col col-md-12 align-items-center justify-content-center margen">
+                            <div class="row justify-content-center">
+                                <p class="dos contenido">Regístrate aquí:</p>
+                            </div>
+                            <div
+                                class="form-group has-feedback has-feedback-left align-items-center justify-content-center">
+                                <div class="col-auto">
+                                    <label class="sr-only" for="nombres">Nombres de la Empresa:</label>
+                                    <input type="text" name="nombres" class="form-control" id="nombres"
+                                        placeholder="Nombres de la Empresa:">
+                                </div>
+                                <div class="col-auto">
+                                    <label class="sr-only" for="correo">Correo:</label>
+                                    <input type="text" name="correo" class="form-control" id="correo"
+                                        placeholder="Correo:">
+                                </div>
+                                <div class="col-auto">
+                                    <label class="sr-only" for="celular">Whatsapp:</label>
+                                    <input type="text" name="celular" class="form-control" id="celular"
+                                        placeholder="Whatsapp:">
+                                </div>
+                                <div class="col-auto">
+                                    <label class="sr-only" for="descripcion">Descripción:</label>
+                                    <input type="text" name="descripcion" class="form-control" id="descripcion"
+                                        placeholder="Descripción:">
+                                </div>
+                                <button id="btn-enviar" class="btn btn-primary btn-block">Enviar datos</button>
+                            </div>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+    <!-- </div> -->
+    <footer id="pie">
+        <div class="container" style="margin-bottom: 8vh;">
+            <div class="row align-items-center justify-content-center">
+                <h1 class="titular text-center px-4 mb-5">Ahora podrás<br>comunicarte con nosotros <b>.</b></h1>
+            </div>
+            <div class="row align-items-center justify-content-center mb-3">
+                <div class="col-4 col-md-3">
+                    <a class="card mx-auto p-0" href="mailto:codi.drive@gmail.com">
+                        <img class="icono img-fluid mx-auto my-auto" src="img/correo.png" />
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a class="card card-centro mx-auto p-0"
+                        href="https://api.whatsapp.com/send?phone=51967075303&text=Hola, me gustaría obtener información de Codi App.">
+                        <img class="icono-centro img-fluid mx-auto my-auto" src="img/whatsapp.png" />
+                    </a>
+                </div>
+                <div class="col-4 col-md-3">
+                    <a class="card mx-auto p-0"
+                        href="https://www.google.com/maps/place/Corporaci%C3%B3n+Vespro/@-6.7625011,-79.8414759,17z/data=!3m1!4b1!4m5!3m4!1s0x904ceed043263dbd:0xae79e08c10729af8!8m2!3d-6.7625064!4d-79.8392872">
+                        <img class="icono img-fluid mx-auto my-auto" src="img/marcador.png" />
+                    </a>
+                </div>
+            </div>
+            <div class="row justify-content-center">
+                <p class="contenidoPie text-center col-4 col-md-3">Por medio de un correo.</p>
+                <p class="contenidoPie text-center col-4 col-md-3">Enviándonos un WhatsApp.</p>
+                <p class="contenidoPie text-center col-4 col-md-3">Visitándonos en nuestra oficina.</p>
+            </div>
+        </div>
+        <div class="ciudad"></div>
+    </footer>
+
+    <!-- Modal confirmado -->
+    <div class="modal fade" id="modal-contacto" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body text-center px-5">
+                    <img class="logo-modal mb-2" src="img/icon.png">
+                    <h2 class="titulo-modal">¡Felicidades!</h2>
+                    <h4 class="subtitulo-modal">Hemos recibido tu solicitud</h4>
+                    <h5 class="titular-modal">y en unos minutos te enviaremos información.</h5>
+                    <p class="parrafo-modal mt-3">*Revisa todas las entradas de tu correo (ej. Spam, promociones,
+                        notificaciones) para ver el e-mail con la información solicitada.</p>
+                </div>
+                <div class="modal-footer justify-content-center">
+                    <img src="img/ciudad_modal.png" class="ciudad-modal">
+                    <button type="button" class="btn btn-primary btn-modal" data-dismiss="modal">Aceptar</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--  modal de error -->
+    <div class="modal fade" id="modal-error" tabindex="-1" role="dialog" aria-labelledby="modal-error"
+        aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <button type="button" class="close btn-modal-cerrar" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <div class="card-img text-center">
+                        <img src="img/logo-modal.png" alt="" />
+                    </div>
+                    <div class="card-text">
+                        <h4 class="modal-heading ">Advertencia </h4>
+                        <p class=" modal-lead-in" id="error">hola</p>
+                        <hr class="modal-raya raya">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        $(window).scroll(function () {
+            if ($("#mainNav").offset().top > 60) {
+                $("#mainNav").addClass("bg-color");
+            } else {
+                $("#mainNav").removeClass("bg-color");
+            }
+        });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js">
+    </script>
+    <script>
+        $(document).ready(function () {
+            var require = [{
+                name: "nombre",
+                validation: [
+                    ["required", "Nombre necesario"],
+                    ["max", "100", "Nombre no debe ser mayor a 100 carácteres "],
+                ]
+            },
+            {
+                name: "empresa",
+                validation: [
+                    ["required", "DNI necesario"],
+                    ["max", "8", "DNI no debe ser mayor a 8 carácteres "],
+                ]
+            },
+            {
+                name: "celular",
+                validation: [
+                    ["required", "Whatsapp necesario"],
+                    ["max", "12", "Whatsapp no debe ser mayor a 12 dígitos "],
+                ]
+            },
+            {
+                name: "correo",
+                validation: [
+                    ["required", "Modelo de auto necesario"],
+                    ["max", "100", "Modelo de auto no debe ser mayor a 100 carácteres "],
+                ]
+            },
+            ];
+
+            function validation_form() {
+                var v_continue = true;
+                $('.form-group').removeClass('error');
+                $('.form-group span').remove();
+                for (let i = 0; i < require.length; i++) {
+                    const data = require[i];
+                    for (let j = 0; j < data.validation.length; j++) {
+                        const validation = data.validation[j];
+                        var error = false;
+                        switch (validation[0]) {
+                            case "required":
+                                if ($('[name=' + data.name + ']').val().trim() === "") {
+                                    $('[name=' + data.name + ']').parent().addClass('error').append('<span>' +
+                                        validation[1] + '</span>');
+                                    error = true;
+                                }
+                                break;
+                            case 'max':
+                                if (($('[name=' + data.name + ']').val()).length > validation[1]) {
+                                    $('[name=' + data.name + ']').parent().addClass('error').append('<span>' +
+                                        validation[2] + '</span>');
+                                    error = true;
+                                }
+                                break;
+                        }
+                        if (error) {
+                            v_continue = false;
+                            break;
+                        };
+                    }
+
+                }
+                return v_continue;
+            }
+            $('#frm-contacto').submit(function (e) {
+                e.preventDefault();
+                if (validation_form()) {
+                    $('#registro').LoadingOverlay('show', {
+                        image: "img/icon.png",
+                        imageAnimation: "2000ms fadein",
+                    });
+                    $.ajax({
+                        type: 'POST',
+                        url: '../email-codi.php',
+                        data: $(this).serialize(),
+                        success: function (data) {
+                            var respuesta = data;
+                            console.log(respuesta);
+                            $('#registro').LoadingOverlay('hide');
+                            // var respuesta = JSON.parse(data);
+                            if (respuesta == "OK") {
+                                $('#frm-contacto')[0].reset();
+                                $('#modal-contacto').modal('show');
+                            } else {
+                                $('#modal-error').modal('show');
+                                $('#error').text(respuesta.data);
+                            }
+                        }
+                    })
+                }
+            })
+            $('#frm-empresa').submit(function (e) {
+                e.preventDefault();
+                // if (validation_form()) {
+                $('#empresa').LoadingOverlay('show', {
+                    image: "img/icon.png",
+                    imageAnimation: "2000ms fadein",
+                });
+                $.ajax({
+                    type: 'POST',
+                    url: 'ajax-correo.php',
+                    data: $(this).serialize(),
+                    success: function (data) {
+                        var respuesta = data;
+                        console.log(respuesta);
+                        $('#empresa').LoadingOverlay('hide');
+                        // var respuesta = JSON.parse(data);
+                        if (respuesta == "OK") {
+                            $('#frm-empresa')[0].reset();
+                            $('#modal-contacto').modal('show');
+                        } else {
+                            $('#modal-error').modal('show');
+                            $('#error').text(respuesta.data);
+                        }
+                    }
+                })
+                // }
+            })
+        });
+    </script>
+</body>
+
+</html>

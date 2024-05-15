@@ -1,0 +1,2413 @@
+@font-face {
+    font-family: 'corsa-regular';
+    src: url("../fonts/corsa_regular.otf");
+}
+
+@font-face {
+    font-family: 'corsa-thin';
+    src: url("../fonts/corsa_thin.otf");
+}
+
+@font-face {
+    font-family: 'poppins-bold';
+    src: url("../fonts/poppins_bold.ttf");
+}
+
+@font-face {
+    font-family: 'poppins-light';
+    src: url("../fonts/poppins_light.ttf");
+}
+
+@font-face {
+    font-family: 'poppins-medium';
+    src: url("../fonts/poppins_medium.ttf");
+}
+
+@font-face {
+    font-family: 'poppins-regular';
+    src: url("../fonts/poppins_regular.ttf");
+}
+
+@font-face {
+    font-family: 'poppins-semibold';
+    src: url("../fonts/poppins_semibold.ttf");
+}
+
+#page-top {
+    width: 100%;
+    overflow-x: hidden;
+}
+
+#mainNav {
+    width: 100%;
+    padding: 0;
+}
+
+.navbar .navbar-nav .nav-link {
+    width: 100%;
+    color: #e2ecf2;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navbar .navbar-brand img {
+    width: 100%;
+    width: 5vh;
+    height: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.btn-contactanos {
+    width: 100%;
+    background-color: #01286b;
+    border-radius: 20px;
+    font-family: 'poppins-semibold';
+    font-size: 12px;
+    padding-top: 5px;
+    padding-bottom: 4px;
+}
+
+.bg-color{
+    transition: all 1s ease;
+    background-color: #e2ecf2;
+}
+
+.flecha {
+    width: 10px;
+    margin-left: 10px;
+    margin-bottom: 3px;
+}
+
+.container-fluid {
+    width: 100%;
+    padding: 0;
+}
+
+#exampleModalCenter .modal-content {
+    background-color: #e2ecf2;
+    border-radius: 20px;
+    border: solid 10px #ffffff;
+}
+
+.logo-modal {
+    height: 10vh;
+}
+
+.titulo-modal {
+    font-family: 'poppins-semibold';
+    color: #00d6d1;
+}
+
+.subtitulo-modal {
+    font-family: 'poppins-semibold';
+    color: #01286b;
+}
+
+.titular-modal {
+    font-family: 'poppins-medium';
+    color: #01286b;
+}
+
+.parrafo-modal {
+    font-family: 'poppins-light';
+    color: #01286b;
+    letter-spacing: 0.5px;
+    font-size: 14px;
+}
+
+.btn-modal {
+    font-family: 'poppins-semibold';
+    background-color: #00d6d1;
+    border: none;
+    border-radius: 15px;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    box-shadow: 3px 3px 5px 3px #6a8dc640;
+    margin-bottom: 5vh;
+    z-index: 2;
+}
+
+.modal-footer {
+    position: relative;
+}
+
+.modal-footer>:not(:first-child) {
+    margin-left: 0;
+}
+
+.ciudad-modal {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    z-index: 1;
+    border-radius: 10px;
+}
+
+@media (min-width: 320px) {
+    .modal-dialog {
+        max-width: 100vw;
+    }
+
+    header {
+        background: linear-gradient(to right bottom, #f2f8fb, #e4f1f8);
+        padding-top: 65px;
+        width: 100%;
+    }
+
+    .navbar .navbar-brand img {
+        width: auto;
+        height: 4vh;
+        margin-left: 15px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    .nav-item {
+        margin-right: 15px;
+    }
+
+    .intro-1 {
+        font-family: 'poppins-bold';
+        color: #01286b;
+        font-size: 50px;
+        line-height: 55px;
+        text-align: center;
+        padding-left: 25px;
+        padding-right: 25px;
+    }
+
+    .intro-2 {
+        font-family: 'poppins-medium';
+        color: #01286b;
+        font-weight: 700;
+        letter-spacing: 1px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 25px;
+        line-height: 30px;
+        text-align: center;
+    }
+
+    .intro-3 {
+        font-family: 'poppins-bold';
+        color: #00d6d1;
+        margin-top: 10px;
+        margin-bottom: 0;
+        letter-spacing: 0;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .intro-4 {
+        font-family: 'poppins-medium';
+        color: #01286b;
+        font-size: 18px;
+        line-height: 21px;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 0;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .android {
+        height: auto;
+        margin-top: 25px;
+        margin-bottom: 25px;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border-radius: 20px;
+        background-color: #00d6d1;
+        font-family: 'poppins-medium';
+        font-size: 15px;
+    }
+
+    .android1  {
+        display: none;
+    }
+
+    .android2 {
+        display: flex;
+    }
+
+    .btn-primary:not(:disabled):not(:disabled):active {
+        color: #ffffff;
+        background-color: #01286b;
+        border: none;
+    }
+
+    .btn-primary:hover {
+        color: #ffffff;
+        background-color: #01286b;
+        border: none;
+    }
+    
+    .ciudad {
+        width: 100%;
+        margin-top: -50%;
+        height: 200px;
+        background-image: url("../img/ciudad.png");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center bottom;
+    }
+    
+    #introduccion {
+        width: 100%;
+        background-color: #e2ecf2;
+        padding-top: 3vh;
+        padding-bottom: 20px;
+        position: relative;
+    }
+
+    #introduccion .fondo_introduccion1_movil {
+        position: absolute;
+        top: 0;
+        right: 5vw;
+        height: 8vh;
+    }
+
+    #introduccion .fondo_introduccion2_movil {
+        position: absolute;
+        top: -2vh;
+        right: 15vw;
+        height: 2vh;
+    }
+
+    #introduccion .fondo_introduccion3_movil {
+        position: absolute;
+        top: 8vh;
+        left: 8vw;
+        height: 1.5vh;
+    }
+
+    #introduccion .titular-pregunta {
+        width: 100%;
+        font-family: 'poppins-semibold';
+        color: #01286b;
+        margin-top: 0;
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    #introduccion .subtitulo {
+        width: 100%;
+        font-family: 'poppins-medium';
+        color: #01286b;
+        margin-top: 1.5vh;
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    #introduccion .video {
+        width: 100%;
+        height: 500px !important;
+        margin-top: 5px;
+        margin-bottom: 5px;
+        margin-left: auto;
+        margin-right: auto;
+        border-radius: 20px;
+    }
+    
+    #introduccion p {
+        width: 100%;
+        font-family: 'poppins-medium';
+        color: #01286b;
+        font-size: 15px;
+        line-height: 18px;
+        text-align: center;
+        margin-bottom: 25px;
+    }
+
+    .imagen {
+        margin-bottom: 3vh;
+    }
+    
+    #forma_uso {
+        width: 100%;
+        background-color: #e2ecf2;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        position: relative;
+        margin-top: -5px;
+    }
+
+    #forma_uso .img-titular {
+        margin-bottom: 4vh;
+    }
+    
+    #forma_uso .fondo1 {
+        margin-top: 15vh;
+        height: 30vh;
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    
+    #forma_uso .botones1 {
+        height: auto;
+        width: 100%;
+        display: flex;
+        padding-left: 50px;
+        padding-right: 50px;
+        margin-bottom: 25px;
+    }
+    
+    #forma_uso .botones2 {
+        width: 100%;
+        height: auto;
+        margin-top: 5vh;
+        display: none;
+    }
+    
+    #forma_uso .texto1 {
+        width: 100%;
+        font-family: 'poppins-bold';
+        color: #00d6d1;
+        font-size: 60px;
+        text-align: end;
+        padding: 0;
+    }
+    
+    #forma_uso .texto2 {
+        width: 100%;
+        font-family: 'poppins-semibold';
+        color: #01286b;
+        font-size: 17px;
+        line-height: 25px;
+        margin-bottom: 5px;
+    }
+    
+    #forma_uso .card-item {
+        width: 100%;
+        border-radius: 100px;
+    }
+    
+    #forma_uso .card-icon {
+        background-color: #01286b;
+        border-radius: 50%;
+        padding: 10px;
+        margin-left: 5px;
+        margin-right: 10px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+    
+    #forma_uso .card-shadow1 {
+        box-shadow: 14px 5px 15px 0px #6a8dc636;
+        width: 72vw;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    
+    #forma_uso .card-shadow2 {
+        box-shadow: 3px 3px 5px 0px #0000005e;
+    }
+    
+    #forma_uso .icono {
+        width: 15px;
+        height: 15px;
+        margin: 0;
+    }
+    
+    #forma_uso .item {
+        width: 100%;
+        margin: 0;
+    }
+    
+    #forma_uso .texto3 {
+        font-family: 'poppins-semibold';
+        color: #01286b;
+        font-size: 13px;
+        margin-bottom: -5px;
+    }
+    
+    #forma_uso .btn-mas {
+        width: 20px;
+        height: 20px;
+        margin: 0 15px 0 auto;
+    }
+
+    .accordion {
+        margin-bottom: 4vh;
+    }
+
+    .card-body {
+        font-family: 'poppins-regular';
+        font-size: 15px;
+        line-height: 20px;
+        color: #01286b;
+        margin-left: 25px;
+        margin-right: 25px;
+    }
+
+    .check {
+        width: auto;
+        height: 7px;
+    }
+
+    #beneficiosPasajero {
+        background-color: #e2ecf2;
+        padding-top: 25px;
+        position: relative;
+        padding-bottom: 25px;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    #beneficiosPasajero .invisible1 {
+        display: none;
+    }
+
+    #beneficiosPasajero .invisible2 {
+        display: flex;
+    }
+
+    #beneficiosPasajero .check {
+        height: 8px;
+        width: auto;
+        padding-right: 7px;
+        margin-top: 2px;
+    }
+
+    .beneficiosPasajero1 {
+        width: 50vw;
+        height: auto;
+        position: absolute;
+        top: 12vh;
+        right: 0;
+    }
+
+    .beneficiosPasajero2 {
+        width: 80vw;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 40px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-border-radius: 99em;
+        -moz-border-radius: 99em;
+        border-radius: 99em;
+        box-shadow: 7px 7px 10px #01286b30;
+    }
+
+    #beneficiosPasajero .titular {
+        font-family: 'poppins-semibold';
+        font-size: 25px;
+        line-height: 25px;
+        color: #01286b;
+        text-align: center;
+    }
+
+    #beneficiosPasajero .titular b {
+        color: #00d6d1;
+        font-size: 50px;
+    }
+
+    #beneficiosPasajero .beneficio {
+        font-family: 'poppins-medium';
+        font-size: 16px;
+        line-height: 19px;
+        color: #01286b;
+        padding-left: 0;
+    }
+    
+    #oportunidadesConductor {
+        background-color: #e2ecf2;
+        padding-top: 25px;
+        padding-bottom: 25px;
+        position: relative;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    #oportunidadesConductor .titular {
+        font-family: 'poppins-semibold';
+        color: #01286b;
+        font-size: 25px;
+        text-align: center;
+        line-height: 25px;
+        margin-bottom: 25px;
+    }
+
+    #oportunidadesConductor .tres {
+        display: block;
+    }
+
+    #oportunidadesConductor .cuatro {
+        display: none;
+    }
+
+    #oportunidadesConductor b {
+        font-size: 50px;
+        color: #00d6d1;
+    }
+
+    .oportunidadesConductor1 {
+        width: 50vw;
+        height: auto;
+        position: absolute;
+        top: 12vh;
+        left: 0;
+    }
+
+    .oportunidadesConductor2 {
+        width: 80vw;
+        height: auto;
+        margin-top: 15px;
+        margin-bottom: 40px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center center;
+        -webkit-border-radius: 99em;
+        -moz-border-radius: 99em;
+        border-radius: 99em;
+        border: none;
+        box-shadow: 7px 7px 10px #01286b30;
+    }
+
+    #oportunidadesConductor .check {
+        height: 8px;
+        width: auto;
+        padding-right: 5px;
+        padding-left: 5px;
+        margin-top: 2px;
+    }
+
+    .oportunidad {
+        font-family: 'poppins-medium';
+        font-size: 16px;
+        line-height: 19px;
+        color: #01286b;
+        padding-left: 0;
+    }
+
+    #pasos {
+        background-color: #ffffff;
+        overflow-x: hidden;
+    }
+    
+    .pie {
+        width: 100%;
+        position: relative;
+        text-align: right;
+        margin: 0;
+    }
+    
+    .fondo2 {
+        position: absolute;
+        width: 100%;
+        top: -1px;
+        right: 0;
+    }
+    
+    .texto4-pasos {
+        width: 100%;
+        font-family: 'poppins-semibold';
+        font-size: 22px;
+        color: #01286b;
+        z-index: 100;
+        line-height: 25px;
+        margin-right: -15px;
+        margin-top: 10px;
+        margin-bottom: 0;
+        text-align: right;
+    }
+
+    #pasos .numeroPaso {
+        font-family: 'poppins-bold';
+        color: #e8ecf1;
+        font-size: 100px;
+        margin-top: 0;
+    }
+
+    #pasos .tituloPaso {
+        font-family: 'poppins-semibold';
+        color: #00d6d1;
+        font-size: 23px;
+        line-height: 25px;
+        margin-top: -15px;
+    }
+
+    #pasos .contenidoPaso {
+        font-family: 'poppins-medium';
+        color: #01286b;
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    #pasos .imagenPaso {
+        width: 100%;
+        height: auto;
+        margin-top: 25px;
+        margin-bottom: 40px;
+    }
+
+    #experiencia {
+        background-color: #e2ecf2;
+        overflow-x: hidden;
+    }
+
+    #experiencia .titular {
+        font-family: 'poppins-semibold';
+        color: #01286b;
+        font-size: 25px;
+        text-align: center;
+        line-height: 28px;
+        margin-top: 35px;
+        margin-bottom: 20px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #experiencia b {
+        color: #00d6d1;
+        font-size: 50px;
+        line-height: 0;
+    }
+
+    #experiencia .mensaje {
+        width: 20vw;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+    }
+
+    #experiencia .card {
+        width: 100%;
+        margin-left: 5vw;
+        margin-right: 5vw;
+        border-radius: 20px;
+        padding: 12px;
+        z-index: 1;
+    }
+
+    #experiencia .card-shadow {
+        box-shadow: #6a8dc630 5px 5px 5px 0;
+    }
+
+    #experiencia .subtitulo {
+        font-family: 'poppins-semibold';
+        font-size: 20px;
+        color: #607985;
+    }
+
+    #experiencia .contenido1 {
+        font-family: 'poppins-medium';
+        font-size: 15px;
+        line-height: 20px;
+        color: #607985;
+        margin-bottom: 0;
+    }
+
+    #experiencia .calificacion {
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 0;
+        padding-right: 0;
+        background-image: url("../img/fondo_experiencia.png");
+        background-repeat: no-repeat;
+        background-attachment: scroll;
+        background-size: cover;
+        background-position: center center;
+        padding-top: 70px;
+        padding-bottom: 70px;
+        margin-bottom: 50px;
+        width: 100%;
+    }
+    
+    #experiencia .contenido2 {
+        font-family: 'poppins-medium';
+        font-size: 15px;
+        color: #01286b;
+        text-align: center;
+    }
+
+    #experiencia .check {
+        margin-top: 9px;
+        margin-right: 7px;
+    }
+
+    #experiencia .contenido3 {
+        font-family: 'poppins-regular';
+        color: #01286b;
+        font-size: 18px;
+        line-height: 23px;
+        margin-bottom: 0;
+    }
+
+    #experiencia .estrella {
+        width: auto;
+        height: 18px;
+        margin-top: 3px;
+        margin-left: 3px;
+        margin-right: 3px;
+        margin-bottom: 15px;
+    }
+
+    #experiencia .calif {
+        font-size: 15px;
+        color: #01286b;
+        line-height: 15px;
+        margin: 0;
+        padding: 0;
+    }
+
+    #mejores {
+        background-color: #e2ecf2;
+    }
+
+    #mejores .titular-azul {
+        font-family: 'poppins-semibold';
+        color: #01286b;
+        font-size: 28px;
+        text-align: center;
+        line-height: 30px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    #mejores .subtitulo {
+        font-family: 'poppins-semibold';
+        font-size: 15px;
+        line-height: 20px;
+        color: #01286b;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #mejores .estrella {
+        width: 20px;
+        height: 20px;
+    }
+
+    #mejores .apellidos {
+        font-family: 'poppins-medium';
+        font-size: 25px;
+        line-height: 30px;
+        color: #01286b;
+    }
+
+    #mejores .nombres {
+        font-family: 'poppins-regular';
+        font-size: 23px;
+        line-height: 28px;
+        color: #01286b;
+    }
+
+    #mejores .bg-celeste {
+        height: 15rem;
+        width: 15rem;
+        border-width: 10px;
+        border-style: solid;
+        border-top-color: #00d6d1;
+        border-right-color: #00d6d1;
+        border-left-color: transparent;
+        border-bottom-color: transparent;
+        border-radius: 50%;
+        transform: rotate(-45deg);
+        z-index: 1;
+    }
+
+    #mejores .conductores {
+        height: 15rem;
+        width: 15rem;
+        padding: 10px;
+        margin-top: -16.5rem;
+        z-index: 10;
+    }
+
+    #mejores .carousel-indicators {
+        bottom: -2.5rem;
+        border-radius: 50%;
+    }
+    
+    #mejores .carousel-indicators .active {
+        background-color: #fff;
+    }
+
+    #registro, #registroempresa {
+        background-color: #e2ecf2;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    #registro .titular, #registroempresa .titular {
+        font-family: 'poppins-semibold';
+        font-size: 25px;
+        line-height: 25px;
+        color: #01286b;
+    }
+
+    #registro b, #registroempresa b {
+        color: #00d6d1;
+        font-size: 50px;
+        line-height: 0;
+    }
+
+    #registro .subtitulo, #registroempresa .subtitulo {
+        font-family: 'poppins-semibold';
+        font-size: 17px;
+        line-height: 20px;
+        color: #01286b;
+    }
+
+    #registro .contenido, #registroempresa .contenido {
+        font-family: 'poppins-regular';
+        font-size: 15px;
+        line-height: 20px;
+        color: #01286b;
+        text-align: center;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 5vw;
+        padding-right: 5vw;
+    }
+
+    #registro .form-control, #registroempresa .form-control {
+        border-radius: 15px;
+        border: none;
+        margin-top: 15px;
+        margin-bottom: 15px;
+        box-shadow: #6a8dc630 -7px 7px 10px 0;
+        color: #607985;
+        font-family: 'poppins-medium';
+        font-size: 15px;
+    }
+
+    #registro .btn-primary, #registroempresa .btn-primary {
+        background-color: #00d1d6;
+        border: none;
+        border-radius: 15px;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        font-family: 'poppins-semibold';
+        font-size: 15px;
+        padding-top: 10px;
+        padding-bottom: 8px;
+    }
+
+    #registro .img-registro, #registroempresa .img-registro {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+
+    #registro .uno, #registroempresa .uno {
+        display: block;
+    }
+
+    #registro .dos, #registroempresa .dos {
+        display: none;
+    }
+
+    #pie {
+        background-color: #e2ecf2;
+        padding-top: 5vh;
+        margin-top: -1px;
+    }
+
+    #pie .titular {
+        color: #01286b;
+        font-size: 25px;
+        line-height: 25px;
+        font-family: 'poppins-semibold';
+    }
+
+    #pie b {
+        color: #00d6d1;
+        font-size: 50px;
+        line-height: 0;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+
+    #pie .card {
+        background-color: #00d6d1;
+        border: none;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        box-shadow: #6a8dc630 5px 7px 5px 0;
+    }
+
+    #pie .card-centro {
+        background-color: #01286b;
+        width: 60px;
+        height: 60px;
+    }
+
+    #pie .contenidoPie {
+        font-family: 'poppins-regular';
+        font-size: 12px;
+        line-height: 12px;
+        color: #01286b;
+    }
+
+    #pie .icono {
+        width: 20px;
+        height: 20px;
+    }
+
+    #pie .icono-centro {
+        width: 30px;
+        height: 30px;
+    }
+
+    #introduccion .fondo_introduccion1_pc, #introduccion .fondo_introduccion2_pc, #introduccion .fondo_introduccion3_pc, #beneficiosPasajero .fondo_beneficiosPasajero1_pc, #beneficiosPasajero2_pc, #experiencia .fondo_experiencia_pc, #pasos .fondo_paso1_pc, #pasos .fondo_paso2_pc, #pasos .fondo_paso3_pc {
+        display: none;
+    }
+
+    #introduccion .fondo_introduccion1_movil, #introduccion .fondo_introduccion2_movil, #introduccion .fondo_introduccion3_movil, #beneficiosPasajero .fondo_beneficiosPasajero1_movil, #beneficiosPasajero .fondo_beneficiosPasajero2_movil, #experiencia .fondo_experiencia_movil, #pasos .fondo_paso1_movil, #pasos .fondo_paso2_movil, #pasos .fondo_paso3_movil {
+        display: block;
+    }
+
+    .fondo_introduccion1_pc, .fondo_beneficiosPasajero1_pc, .fondo_beneficiosPasajero2_pc, .fondo_pasos1_pc, .fondo_paso1_pc, .fondo_paso2_pc, .fondo_experiencia_pc {
+        display: none;
+    }
+}
+
+@media (min-width: 375px) {
+    .navbar .navbar-brand img {
+        height: 4.5vh;
+    }
+
+    .btn-contactanos {
+        font-size: 11px;
+    }
+
+    .masthead .img-fluid {
+        margin-bottom: 0;
+    }
+
+    .intro-2 {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    .intro-3 {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    .intro-4 {
+        font-size: 17px;
+        line-height: 22px;
+    }
+
+    #introduccion .titular {
+        font-size: 20px;
+        line-height: 22px;
+    }
+
+    #introduccion p {
+        font-size: 22px;
+        line-height: 25px;
+    }
+
+    #forma_uso .fondo1 {
+        width: 80vw;
+        height: auto;
+    }
+
+    #forma_uso .texto1 {
+        font-size: 75px;
+    }
+
+    #forma_uso .texto2 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    #forma_uso .icono {
+        width: 20px;
+        height: 20px;
+    }
+
+    #forma_uso .texto3 {
+        font-size: 18px;
+    }
+
+    #forma_uso .btn-mas {
+        width: 23px;
+        height: 23px;
+    }
+
+    .texto4-pasos {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    #pie .contenidoPie {
+        font-size: 13px;
+        line-height: 15px;
+    }
+}
+
+@media (min-width: 425px) {
+    .navbar .navbar-brand img {
+        width: auto;
+        height: 6vh;
+    }
+
+    .intro-1 {
+        font-size: 65px;
+        line-height: 70px;
+    }
+
+    .intro-2 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .intro-3, .intro-4 {
+        font-size: 25px;
+        line-height: 27px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .ciudad {
+        margin-top: -40%;
+    }
+
+    #introduccion .titular {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    #introduccion p {
+        font-size: 25px;
+        line-height: 28px;
+    }
+
+    #forma_uso {
+        padding-bottom: 50px;
+    }
+
+    #forma_uso .botones1 {
+        padding-left: 20vw;
+        padding-right: 20vw;
+    }
+
+    #forma_uso .texto2 {
+        font-size: 24px;
+        line-height: 30px;
+    }
+
+    #forma_uso .card-icon {
+        margin-left: 10px;
+        margin-right: 15px;
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    #forma_uso .icono {
+        width: 20px;
+        height: 20px;
+    }
+
+    #forma_uso .texto3 {
+        font-size: 20px;
+    }
+
+    #forma_uso .btn-mas {
+        width: 25px;
+        height: 25px;
+    }
+
+    .texto4-pasos {
+        font-size: 27px;
+        line-height: 33px;
+    }
+
+    #registro .titular, #registroempresa .titular {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #registro .contenido, #registroempresa .contenido {
+        padding-left: 10vw;
+        padding-right: 10vw;
+    }
+
+    #registro .form-control, #registroempresa .form-control {
+        width: 85%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #registro .btn-primary, #registroempresa .btn-primary {
+        width: 60%;
+    }
+
+    #pie .titular {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+
+    #pie .icono {
+        width: 25px;
+        height: 25px;
+    }
+
+    #pie .card {
+        width: 45px;
+        height: 45px;
+        flex: 0 0 auto;
+    }
+
+    #pie .card-centro {
+        width: 65px;
+        height: 65px;
+    }
+
+    #pie .icono-centro {
+        width: 35px;
+        height: 35px;
+    }
+}
+
+@media (min-width: 768px) {
+    .modal-dialog {
+        max-width: 45vw;
+    }
+
+    .nav-item {
+        margin-right: 10px;
+    }
+
+    .btn-contactanos {
+        font-size: 10px;
+    }
+
+    .intro-1 {
+        font-size: 35px;
+        line-height: 35px;
+        text-align: left;
+        margin-left: 6vw;
+    }
+
+    .intro-2 {
+        font-size: 20px;
+        line-height: 20px;
+        text-align: left;
+        margin-left: 9vw;
+        font-family: 'poppins-regular';
+        margin-top: 2vh;
+        margin-bottom: 2vh;
+    }
+
+    .intro-3, .intro-4 {
+        font-size: 20px;
+        line-height: 23px;
+        text-align: left;
+        letter-spacing: 0;
+    }
+
+    .intro-4 {
+        font-size: 17px;
+        margin-bottom: 3vh;
+    }
+
+    .masthead .img-fluid {
+        margin-bottom: 0;
+        padding-right: 5vw;
+    }
+
+    .android {
+        margin-left: 11vw;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+    
+    .ciudad {
+        margin-top: -30vh;
+        height: 35vh;
+    }
+
+    #introduccion .fondo_introduccion1_pc {
+        position: absolute;
+        top: 0;
+        right: 32%;
+        height: 9vh;
+    }
+
+    #introduccion .fondo_introduccion2_pc {
+        position: absolute;
+        top: 0;
+        right: 2vw;
+        height: 5vw;
+    }
+
+    #introduccion .fondo_introduccion3_pc {
+        position: absolute;
+        bottom: 5vh;
+        left: 4vw;
+        height: 3vw;
+    }
+
+    #introduccion p {
+        font-size: 23px;
+        line-height: 25px;
+        margin-top: 50px;
+        text-align: left;
+    }
+
+    #introduccion .subtitulo {
+        margin-top:3.5vh;
+    }
+
+    #introduccion .video {
+        margin-top: 5vh;
+        margin-bottom: 47px;
+    }
+
+    #beneficiosPasajero {
+        padding-bottom: 45px;
+    }
+
+    #beneficiosPasajero .android {
+        margin-top: 3vh;
+        margin-bottom: 10vh;
+    }
+
+    #beneficiosPasajero .invisible1 {
+        display: flex;
+        padding-left: 20px;
+    }
+
+    #beneficiosPasajero .invisible2 {
+        display: none;
+    }
+
+    #beneficiosPasajero .beneficiosPasajero1 {
+        width: 25vw;
+    }
+
+    #oportunidadesConductor {
+        padding-top: 45px;
+        overflow-x: hidden;
+    }
+
+    #oportunidadesConductor .android {
+        margin-top: 3vh;
+    }
+
+    #oportunidadesConductor .uno {
+        order: 2;
+    }
+
+    #oportunidadesConductor .dos {
+        order: 1;
+    }
+
+    #oportunidadesConductor .tres {
+        display: none;
+    }
+
+    #oportunidadesConductor .cuatro {
+        display: block;
+    }
+
+    #oportunidadesConductor .oportunidadesConductor1 {
+        width: 25vw;
+    }
+
+    #forma_uso .botones1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #forma_uso .img-titular {
+        margin-bottom: 6vh;
+    }
+
+    #forma_uso .row {
+        margin-right: auto;
+        margin-left: auto;
+    }
+
+    #forma_uso .contenido-card {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    #forma_uso .btn-mas {
+        margin-left: auto;
+        margin-right: 15px;
+    }
+
+    #forma_uso .texto3 {
+        font-size: 15px;
+    }
+
+    #forma_uso .card-shadow1 {
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    #forma_uso .botones1 {
+        margin-top: 25px;
+    }
+
+    .texto4-pasos {
+        font-size: 40px;
+        line-height: 45px;
+        margin-top: 50px;
+    }
+
+    #pasos {
+        position: relative;
+        overflow-y: hidden;
+    }
+
+    #pasos .pasos-detalle {
+        margin-top: 10vh;
+        margin-bottom: 5vh;
+    }
+
+    #pasos .imagenPaso {
+        margin-top: 50px;
+        margin-bottom: 50px;
+    }
+
+    #pasos .uno {
+        order: 1;
+    }
+
+    #pasos .dos {
+        order: 2;
+    }
+
+    #pasos .tres {
+        order: 4;
+    }
+
+    #pasos .cuatro {
+        order: 3;
+    }
+
+    #pasos .cinco {
+        order: 5;
+    }
+
+    #pasos .seis {
+        order: 6;
+    }
+
+    #experiencia .titular {
+        margin-top: 50px;
+    }
+
+    #experiencia .card {
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #experiencia .calificacion {
+        padding-top: 5vh;
+        padding-bottom: 5vh;
+        width: 50%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #experiencia .mensaje {
+        width: 12vw;
+    }
+
+    #registro .contenido, #registroempresa .contenido {
+        padding-left: 25vw;
+        padding-right: 25vw;
+        margin-bottom: 35px;
+    }
+
+    #registro .btn-primary, #registroempresa .btn-primary {
+        width: 68%;
+        font-size: 15px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+        margin-top: 5vh;
+    }
+
+    #registro .uno, #registroempresa .uno {
+        display: none;
+    }
+
+    #registro .dos, #registroempresa .dos {
+        display: block;
+        margin-left: 0;
+        margin-right: 0;
+        padding-left: 7vw;
+        padding-right: 7vw;
+        text-align: left;
+        margin-top: 5vh;
+        margin-bottom: 1.5vh;
+    }
+
+    #registro .form-control, #registroempresa .form-control {
+        height: auto;
+        font-size: 12px;
+        padding-top: 8px;
+        padding-bottom: 6px;
+    }
+
+    #registro .titular, #registroempresa .titular {
+        line-height: 28px;
+    }
+
+    #pie .titular {
+        line-height: 28px;
+        margin-top: 8vh;
+    }
+
+    #pie .contenidoPie {
+        font-size: 15px;
+        line-height: 18px;
+    }
+
+    .fondo_introduccion1_pc, .fondo_beneficiosPasajero1_pc, .fondo_beneficiosPasajero2_pc, .fondo_pasos1_pc, .fondo_paso1_pc, .fondo_paso2_pc, .fondo_experiencia_pc {
+        display: block;
+    }
+
+    #introduccion .fondo_introduccion1_pc, #introduccion .fondo_introduccion2_pc, #introduccion .fondo_introduccion3_pc, #beneficiosPasajero .fondo_beneficiosPasajero1_pc, #beneficiosPasajero2_pc, #experiencia .fondo_experiencia_pc, #pasos .fondo_paso1_pc, #pasos .fondo_paso2_pc, #pasos .fondo_paso3_pc {
+        display: block;
+    }
+
+    #introduccion .fondo_introduccion1_movil, #introduccion .fondo_introduccion2_movil, #introduccion .fondo_introduccion3_movil, #beneficiosPasajero .fondo_beneficiosPasajero1_movil, #beneficiosPasajero .fondo_beneficiosPasajero2_movil, #experiencia .fondo_experiencia_movil, #pasos .fondo_paso1_movil, #pasos .fondo_paso2_movil, #pasos .fondo_paso3_movil {
+        display: none;
+    }
+
+    .fondo_beneficiosPasajero1_pc {
+        position: absolute;
+        bottom: 10vh;
+        left: 45vw;
+        width: 2vw;
+    }
+
+    .fondo_beneficiosPasajero2_pc {
+        position: absolute;
+        bottom: 0;
+        left: 60vw;
+        width: 4vw;
+    }
+
+    .fondo_pasos1_pc {
+        position: absolute;
+        bottom: 15vh;
+        left: 5vw;
+        width: 2vw;
+    }
+
+    .fondo_paso1_pc {
+        position: absolute;
+        top: 110vh;
+        left: 15vw;
+        width: 12vw;
+    }
+
+    .fondo_paso2_pc {
+        position: absolute;
+        top: 230vh;
+        right: 20vw;
+        height: 10vh;
+    }
+
+    #experiencia {
+        position: relative;
+        overflow-y: hidden;
+    }
+
+    .fondo_experiencia_pc {
+        position: absolute;
+        bottom: 30vh;
+        right: 20vw;
+        width: 1vw;
+    }
+}
+
+@media  (min-width: 800px) {
+    .intro-1 {
+        text-align: left;
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .intro-3 {
+        text-align: left;
+        margin-left: 9vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .intro-4 {
+        text-align: left;
+        margin-left: 9vw;
+        padding-left: 0;
+        padding-right: 0;
+    }
+
+    .ciudad {
+        height: 45vh;
+        margin-top: -35vh;
+    }
+
+    #pie .contenidoPie {
+        font-size: 15px;
+        line-height: 20px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .intro-1 {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    .intro-2 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .intro-3 {
+        font-size: 25px;
+        line-height: 30px;
+        letter-spacing: 0;
+        margin-top: 11px;
+    }
+
+    .intro-4 {
+        font-size: 21px;
+        line-height: 26px;
+        letter-spacing: 0;
+    }
+
+    .android1 {
+        font-size: 15px;
+        margin-left: 11vw;
+    }
+
+    #introduccion .titular-pregunta {
+        font-size: 45px;
+        line-height: 45px;
+    }
+
+    #introduccion .subtitulo {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    #beneficiosPasajero .titular, #oportunidadesConductor .titular {
+        font-size: 32px;
+        line-height: 32px;
+        text-align: left;
+        margin-left: 25px;
+    }
+
+    #beneficiosPasajero .beneficio, #oportunidadesConductor .oportunidad {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    #beneficiosPasajero .check, #oportunidadesConductor .check {
+        margin-top: 7px;
+    }
+
+    #forma_uso .texto3 {
+        font-size: 20px;
+    }
+
+    #collapseOne, #collapseTwo, #collapseThree, #collapseFour {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .card-body {
+        font-size: 16px;
+        line-height: 21px;
+    }
+
+    .fondo2 {
+        margin-top: -5px;
+    }
+
+    .texto4-pasos {
+        margin-top: 75px;
+    }
+
+    #pasos .numeroPaso {
+        font-size: 120px;
+    }
+
+    #pasos .tituloPaso {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #pasos .contenidoPaso {
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    #experiencia .titular {
+        font-size: 30px;
+        line-height: 35px;
+        margin-top: 70px;
+    }
+
+    #experiencia .contenido3 {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    #experiencia .calificacion {
+        width: 38%;
+    }
+
+    #experiecia .subtitulo {
+        font-size: 22px;
+    }
+
+    #experiencia .contenido1 {
+        font-size: 17px;
+        line-height: 23px;
+    }
+
+    #experiencia .card {
+        padding: 18px;
+    }
+
+    #mejores .titular-azul {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #mejores .subtitulo {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    #mejores .carousel-indicators {
+        bottom: -2.5rem;
+        border-radius: 50%;
+    }
+    
+    #mejores .carousel-indicators .active {
+        background-color: #00d6d1;
+    }
+
+    #registro .titular, #registroempresa .titular {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #registro .contenido, #registroempresa .contenido {
+        font-size: 18px;
+        line-height: 25px;
+    }
+
+    #registro .btn-primary, #registroempresa .btn-primary {
+        width: 60%;
+    }
+
+    #pie .contenidoPie {
+        font-size: 18px;
+        line-height: 23px;
+    }
+
+    #pie .icono {
+        width: 30px;
+        height: 30px;
+    }
+
+    #pie .card {
+        width: 50px;
+        height: 50px;
+    }
+
+    #pie .card-centro {
+        width: 70px;
+        height: 70px;
+    }
+
+    #pie .icono-centro {
+        width: 40px;
+        height: 40px;
+    }
+
+    #pie .titular {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    #pie b {
+        font-size: 50px;
+        line-height: 0;
+    }
+}
+
+@media (min-width: 1152px) {
+    .intro-1 {
+        font-size: 55px;
+        line-height: 60px;
+    }
+
+    .intro-3 {
+        font-size: 30px;
+        line-height: 35px;
+    }
+
+    .intro-4 {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    .android {
+        font-size: 18px;
+    }
+
+    .ciudad {
+        margin-top: -40vh;
+    }
+
+    #introduccion .titular-pregunta {
+        font-size: 50px;
+        line-height: 50px;
+    }
+
+    #introduccion .subtitulo {
+        font-size: 22px;
+        line-height: 27px;
+    }
+
+    .fondo2 {
+        margin-top: -10px;
+    }
+
+    .texto4-pasos {
+        margin-top: 85px;
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    #pasos .numeroPaso {
+        font-size: 150px;
+    }
+
+    #pasos .tituloPaso {
+        font-size: 30px;
+        line-height: 30px;
+    }
+
+    #pasos .contenidoPaso {
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    #experiencia .subtitulo {
+        font-size: 25px;
+    }
+
+    #experiencia .contenido3 {
+        font-size: 20px;
+        line-height: 25px;
+    }
+
+    #experiencia .calificacion {
+        width: 34%;
+    }
+
+    #registro .form-control, #registroempresa .form-control {
+        font-size: 16px;
+    }
+
+    #registro .btn-primary, #registroempresa .btn-primary {
+        font-size: 17px;
+    }
+}
+
+@media (min-width: 1280px) {
+    .nav-item {
+        margin-right: 30px;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 12px;
+    }
+
+    .intro-1 {
+        margin-left: 7vw;
+    }
+
+    .texto4-pasos {
+        margin-top: 120px;
+    }
+
+    #oportunidadesConductor {
+        margin-top: -1px;
+    }
+
+    #pasos .pasos-detalle {
+        margin-top: 15vh;
+    }
+
+    #experiencia .calificacion {
+        width: 31%;
+        margin-top: 35px;
+        margin-bottom: 35px;
+    }
+    
+    #pie .titular {
+        margin-top: 15vh;
+    }
+
+    #pie .contenidoPie {
+        font-size: 20px;
+        line-height: 25px;
+    }
+}
+
+@media (min-width: 1360px) {
+    .ciudad {
+        height: 60vh;
+        margin-top: -50vh;
+    }
+
+    .intro-1 {
+        font-size: 60px;
+        line-height: 65px;
+    }
+
+    .intro-3 {
+        font-size: 33px;
+        line-height: 38px;
+    }
+
+    .intro-4 {
+        font-size: 29px;
+        line-height: 34px;
+    }
+
+    #introduccion .titular-pregunta {
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    #beneficiosPasajero {
+        margin-top: -1px;
+    }
+
+    #experiencia .calificacion {
+        width: 34%;
+        padding-top: 10vh;
+        padding-bottom: 10vh;
+        margin-bottom: 70px;
+    }
+}
+
+@media (min-width: 1366px) {
+    #beneficiosPasajero .beneficiosPasajero1, #oportunidadesConductor .oportunidadesConductor1 {
+        width: 22vw;
+    }
+
+    #experiencia .calificacion {
+        margin-bottom: 110px;
+    }
+
+    #forma_uso .img-titular {
+        margin-top: 10vh;
+    }
+}
+
+@media (min-width: 1440px) {
+    .intro-1 {
+        font-size: 65px;
+        line-height: 70px;
+    }
+
+    .intro-3 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .intro-4 {
+        font-size: 31px;
+        line-height: 36px;
+    }
+
+    #beneficiosPasajero .beneficiosPasajero1, #oportunidadesConductor .oportunidadesConductor1 {
+        width: 20vw;
+    }
+
+    #beneficiosPasajero .titular, #oportunidadesConductor .titular, #experiencia .titular, #registro .titular, #registroempresa .titular, #pie .titular {
+        font-size: 34px;
+        line-height: 39px;
+    }
+
+    #forma_uso .texto3 {
+        font-size: 25px;
+    }
+
+    #forma_uso .icono {
+        width: 25px;
+        height: 25px;
+    }
+
+    #forma_uso {
+        margin-bottom: -1px;
+    }
+    
+    .card-body {
+        font-size: 19px;
+        line-height: 24px;
+    }
+
+    .texto4-pasos {
+        font-size: 65px;
+        line-height: 70px;
+    }
+
+    #pasos .numeroPaso {
+        font-size: 180px;
+    }
+
+    #pasos .tituloPaso {
+        font-size: 35px;
+        line-height: 35px;
+    }
+
+    #pasos .contenidoPaso {
+        font-size: 25px;
+        line-height: 30px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .intro-1 {
+        font-size: 70px;
+        line-height: 75px;
+    }
+
+    .intro-3 {
+        font-size: 38px;
+        line-height: 43px;
+    }
+
+    .intro-4 {
+        font-size: 35px;
+        line-height: 40px;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 13px;
+    }
+
+    .android {
+        font-size: 21px;
+    }
+
+    #beneficiosPasajero .beneficiosPasajero2 {
+        margin-right: -5vw;
+    }
+
+    .oportunidadesConductor2 {
+        margin-left: -5vw;
+    }
+
+    #registro .contenido, #registroempresa .contenido {
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    #experiencia .contenido3 {
+        font-size: 25px;
+        line-height: 35px;
+    }
+
+    #mejores .titular-azul {
+        font-size: 34px;
+        line-height: 39px;
+    }
+
+    #mejores .subtitulo {
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    #registro .titular, #registroempresa .titular {
+        margin-bottom: 5vh;
+    }
+}
+
+@media (min-width: 1680px) {
+    #beneficiosPasajero .titular, #oportunidadesConductor .titular, #experiencia .titular, #registro .titular, #registroempresa .titular, #pie .titular {
+        font-size: 40px;
+        line-height: 45px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #beneficiosPasajero .beneficio, #oportunidadesConductor .oportunidad {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #beneficiosPasajero .check, #oportunidadesConductor .check {
+        margin-top: 10px;
+        margin-right: 5px;
+        height: 12px;
+    }
+
+    .android {
+        font-size: 23px;
+    }
+
+    #beneficiosPasajero .beneficiosPasajero2 {
+        margin-right: -10vw;
+    }
+
+    .oportunidadesConductor2 {
+        margin-left: -10vw;
+    }
+
+    #forma_uso .icono {
+        width: 30px;
+        height: 30px;
+    }
+
+    #forma_uso .card-icon {
+        margin-left: 15px;
+        margin-right: 20px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+
+    #forma_uso .btn-mas {
+        width: 30px;
+        height: 30px;
+    }
+
+    .card-body {
+        font-size: 23px;
+        line-height: 30px;
+    }
+
+    .check {
+        height: 10px;
+    }
+
+    #pasos .numeroPaso {
+        font-size: 220px;
+    }
+
+    #pasos .tituloPaso {
+        font-size: 40px;
+        line-height: 40px;
+    }
+
+    #pasos .contenidoPaso {
+        font-size: 28px;
+        line-height: 33px;
+    }
+
+    #pasos .imagenPaso {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .texto4-pasos {
+        font-size: 75px;
+        line-height: 80px;
+    }
+
+    #pasos .pasos-detalle {
+        margin-top: 20vh;
+    }
+
+    #experiencia .subtitulo {
+        font-size: 30px;
+    }
+
+    #mejores .titular-azul {
+        font-size: 40px;
+        line-height: 45px;
+    }
+
+    #mejores .subtitulo {
+        font-size: 23px;
+        line-height: 28px;
+    }
+}
+
+@media (min-width: 1920px) {
+    header {
+        padding-top: 85px;
+    }
+
+    .navbar .navbar-brand img {
+        width: 3.5vw;
+        margin-left: 2vw;
+        margin-top: 1vh;
+        margin-bottom: 1vh;
+        height: auto;
+    }
+
+    .navbar .navbar-nav .nav-link {
+        font-size: 17.5px;
+    }
+    
+    .nav-item {
+        margin-right: 2vw;
+    }
+
+    .intro-1 {
+        font-size: 95px;
+        line-height: 100px;
+        text-align: start;
+        margin-left: 2.5vw;
+    }
+    
+    .intro-3 {
+        font-size: 50px;
+        line-height: 60px;
+        text-align: start;
+        padding-left: 3vw;
+        margin-left: 1vw;
+    }
+    
+    .intro-4 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        padding-left: 3vw;
+        margin-left: 1vw;
+    }
+
+    .android {
+        margin-top: 5vh;
+    }
+    
+    .ciudad {
+        margin-top: -20%;
+        height: 600px;
+    }
+    
+    #introduccion {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    
+    #introduccion .titular-pregunta {
+        margin-top: 4vh;
+        font-size: 55px;
+        line-height: 55px;
+    }
+
+    #introduccion .subtitulo {
+        font-size: 30px;
+        line-height: 35px;
+        padding-left: 5px;
+        padding-right: 5px;
+    }
+
+    #beneficiosPasajero .beneficiosPasajero2 {
+        margin-right: -25vw;
+        max-width: 125%;
+    }
+
+    #beneficiosPasajero .titular, #oportunidadesConductor .titular, #experiencia .titular, #registro .titular, #registroempresa .titular {
+        font-size: 50px;
+        line-height: 55px;
+        padding-left: 10px;
+        padding-right: 10px;
+        margin-left: 0;
+    }
+
+    #beneficiosPasajero .beneficiosPasajero1 {
+        width: 17vw;
+        top: 7vh;
+    }
+
+    #beneficiosPasajero .titular b, #oportunidadesConductor b {
+        font-size: 70px;
+        line-height: 55px;
+    }
+
+    #beneficiosPasajero .beneficio, #oportunidadesConductor .oportunidad {
+        font-size: 23px;
+        line-height: 28px;
+    }
+
+    #beneficiosPasajero .android {
+        margin-right: auto;
+        margin-left:7vw;
+    }
+
+    #beneficiosPasajero .margen {
+        margin-left: -10vw;
+    }
+
+    #oportunidadesConductor {
+        padding-top: 20vh;
+    }
+
+    #oportunidadesConductor .oportunidadesConductor1 {
+        width: 17vw;
+        top: 24vh;
+    }
+
+    #oportunidadesConductor .oportunidadesConductor2 {
+        margin-left: -20vw;
+        max-width: 125%;
+    }
+
+    #oportunidadesConductor .margen {
+        margin-right: -14vw;
+        margin-left: 6vw;
+    }
+
+    #oportunidadesConductor .android {
+        margin-right: auto;
+        margin-left: 9vw;
+    }
+
+    #forma_uso .botones1 {
+        padding-left: 2vw;
+        padding-right: 2vw;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+    }
+
+    .texto4-pasos {
+        font-size: 80px;
+        line-height: 85px;
+    }
+
+    #pasos .pasos-detalle {
+        margin-top: 25vh;
+    }
+
+    #pasos .imagenPaso {
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+        margin-top: 15vh;
+        margin-bottom: 15vh;
+    }
+
+
+    #pasos .numeroPaso, #pasos .tituloPaso, #pasos .contenidoPaso {
+        margin-left: 2.5vw;
+        margin-right: 2.5vw;
+    }
+
+    #experiencia .mensaje {
+        width: 9vw;
+    }
+
+    #experiencia b {
+        font-size: 70px;
+        line-height: 55px;
+    }
+
+    #experiencia .contenido3 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    #experiencia .estrella {
+        height: 23px;
+        margin-bottom: 25px;
+    }
+
+    #mejores .titular-azul {
+        font-size: 50px;
+        line-height: 55px;
+    }
+
+    #mejores .subtitulo {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #registro .dos, #registroempresa .dos {
+        padding-left: 4vw;
+        padding-right: 2vw;
+    }
+
+    .ciudad {
+        margin-top: -25%;
+    }
+
+    #registro b, #registroempresa b {
+        font-size: 70px;
+        line-height: 55px;
+    }
+
+    #registro .img-registro {
+        width: 93%;
+        margin-left: 7vw;
+    }
+
+    #registroempresa .img-registro {
+        width: 93%;
+        margin-right: 7vw;
+    }
+
+    #registro .margen, #registroempresa .margen {
+        margin-right: 7vw;
+    }
+
+    #registro .contenido, #registroempresa .contenido {
+        font-size: 25px;
+        line-height: 30px;
+    }
+
+    #registro .form-control, #registroempresa .form-control {
+        font-size: 20px;
+    }
+
+    #registro .btn-primary, #registroempresa .btn-primary {
+        font-size: 20px;
+    }
+
+    #pie .icono {
+        width: 35px;
+        height: 35px;
+    }
+
+    #pie .icono-centro {
+        width: 45px;
+        line-height: 45px;
+    }
+
+    #pie .card {
+        width: 55px;
+        height: 55px;
+    }
+
+    #pie .card-centro {
+        width: 75px;
+        height: 75px;
+    }
+}

@@ -1,0 +1,904 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="vendor/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="css/agency.css" />
+    <link rel="icon" href="img/icon.png" type="image/png">
+
+	<!-- Slide -->
+	<link rel="stylesheet" type="text/css" href="engine0/style.css" />
+	<script type="text/javascript" src="engine0/jquery.js"></script>
+    <!-- End Slide -->  
+    <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous">
+    </script>
+    <!-- <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script> -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <title>Vespro</title>
+</head>
+<body id="page-top">
+
+    <!--Barra de navegación-->
+    <nav class="navbar navbar-expand-md navbar-dark fixed-top" id="mainNav">
+        <div class="container-fluid text-center">
+            <a class="navbar-brand js-scroll-trigger" href="#page-top" style="z-index: 99999; margin-left: 50px; margin-top: -5px;">
+                <img class="img-fluid" src="img/logo_blanco.png" />
+            </a>
+            <div class="collapse navbar-collapse" id="navbarResponsive" style="margin-right: 50px;">
+                <ul class="navbar-nav ml-auto align-items-center justify-content-center">
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#beneficios">Beneficios</a>
+                    </li>|
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#cotizar">Cotizar</a>
+                    </li>|
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#herramientas">Herramientas</a>
+                    </li>|
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#testimonios">Testimonios</a>
+                    </li>|
+                    <li class="nav-item">
+                        <a class="nav-link js-scroll-trigger" href="#otros_productos">Productos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!--Botón flotante de Whatsapp-->
+    <div class="btn-whatsapp">
+        <a href="https://api.whatsapp.com/send?phone=51997630413" target="_blank">
+            <img id="whatsapp-button" src="img/whatsapp.png" alt="">
+        </a>
+    </div>
+
+    <!--Botón flotante de navegación-->
+    <div class="container-navegacion">
+        <input type="checkbox" id="toggle-navegacion">
+        <nav class="nav-navegacion">
+            <a class="btn-navegacion text-center" href="#beneficios">Beneficios</a>
+            <a class="btn-navegacion text-center" href="#cotizar">Cotizar</a>
+            <a class="btn-navegacion text-center" href="#herramientas">Herramientas</a>
+            <a class="btn-navegacion text-center" href="#testimonios">Testimonios</a>
+            <a class="btn-navegacion text-center" href="#otros_productos">Productos</a>
+        </nav>
+        <div class="boton-flotante">
+            <label for="toggle-navegacion" class="button-navegacion"></label>
+        </div>
+    </div>
+
+    <!--Encabezado-->
+    <header id="header" class="masthead">
+        <div class="container-fluid text-center">
+            <div class="row align-items-center">
+                <div class="container-fluid col-12 col-md-7">
+                    <div class="intro-text">
+                        <div class="intro-heading">Administra</div>
+                        <div class="intro-lead-in">tu Empresa de Taxi</div>
+                        <div class="intro-lead-in">con un solo Sistema</div>
+                        <div class="intro-tercero">De manera fácil y segura</div>
+                        <ul class="text-center list-inline social-buttons align-items-center">
+                            <li class="list-inline-item">
+                                <a class="btn btn-primary btn-xl botones" href="#cotizar">Adquiérelo</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <img id="imagen-grande" class="col-12 col-md-4 img-fluid" src="img/smartphone_3.png"/>
+            </div>
+        </div>
+    </header>
+
+    <!--Introducción-->
+    <div class="container-fluid text-center align-items-center justify-content-center col-11 col-lg-12" id="introduccion" style="position: relative;">
+        <p class="col-xl-9 text-center relleno-naranja">¿Desearías equilibrar las tareas operativas y administrativas de tu empresa?</p>
+        <p class="col-xl-9 text-center relleno-negro">Realiza tus operaciones en menos de 1 minuto!</p>
+        <div class="text-center">
+            <img src="img/linea_naranja.png" width="100vw" />
+        </div>
+        <video id="video_introduccion" autoplay controls>
+            <source src="img/taxi.mp4" type="video/mp4">
+            Tu navegador no soporta HTML5 video
+        </video>
+    </div>
+
+    <!--Beneficios-carousel-->
+    <div id="beneficios-carousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="3"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <div class="col-10 col-lg-4 d-block">
+                    <div class="card border-0 card-shadow card-1">
+                        <div class="row no-gutters align-items-center h-100">
+                            <div class="col-3">
+                                <img class="card-img card-img-1" src="img/icono_1.png"/>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body">
+                                    <h5 class="card-title text-naranja">Revisa tu Estado Financiero</h5>
+                                    <div class="card-text">Consulta los movimientos de dinero que tiene tu empresa en un periodo de tiempo.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-10 col-lg-4 d-block">
+                    <div class="card border-0 card-shadow card-2">
+                        <div class="row no-gutters align-items-center h-100">
+                            <div class="col-3">
+                                <img class="card-img card-img-2" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto;" src="img/icono_2.png" />
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body">
+                                    <h5 class="card-title text-naranja">Notificaciones</h5>
+                                    <div class="card-text">Te notifica cuentas por cobrar y documentos por vencer (SOAT, licencia y revisión técnica).</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-10 col-lg-4 d-block">
+                    <div class="card border-0 card-shadow card-3">
+                        <div class="row no-gutters align-items-center h-100">
+                            <div class="col-3">
+                                <img class="card-img card-img-1" src="img/icono_3.png"/>
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body">
+                                    <h5 class="card-title text-naranja">Documentación a tu alcance</h5>
+                                    <div class="card-text">Accede a la información que necesitas del conductor, vehículo y fechas de pago de forma inmediata.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <div class="col-10 col-lg-4 d-block">
+                    <div class="card border-0 card-shadow card-4">
+                        <div class="row no-gutters align-items-center h-100">
+                            <div class="col-3">
+                                <img class="card-img card-img-2" style="position: absolute; top: 0; left: 0; right: 0; bottom: 0; margin: auto;" src="img/icono_4.png" />
+                            </div>
+                            <div class="col-9">
+                                <div class="card-body">
+                                    <h5 class="card-title text-naranja">Analiza la cobranza</h5>
+                                    <div class="card-text">Contabiliza en tiempo real cantidades de dinero por cobrar a cada afiliado.</div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--Beneficios-->
+    <div id="beneficios" class="container-fluid">
+        <div class="row justify-content-md-center">
+            <div class="col-12 col-md-5 col-lg-4">
+                <div class="card border-0 card-shadow card-1">
+                    <div class="row no-gutters align-items-center h-100">
+                        <div class="col-3 text-center">
+                            <img class="card-img card-img-1" src="img/icono_1.png"/>
+                        </div>
+                        <div class="col-9">
+                            <div class="card-body">
+                                <h5 class="card-title text-naranja">Revisa tu Estado Financiero</h5>
+                                <div class="card-text">Consulta los movimientos de dinero que tiene tu empresa en un periodo de tiempo.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-4">
+                <div class="card border-0 card-shadow card-2">
+                    <div class="row no-gutters align-items-center h-100">
+                        <div class="col-3 text-center">
+                            <img class="card-img card-img-2" src="img/icono_2.png" />
+                        </div>
+                        <div class="col-9">
+                            <div class="card-body">
+                                <h5 class="card-title text-naranja">Notificaciones</h5>
+                                <div class="card-text">Te notifica cuentas por cobrar y documentos por vencer (SOAT, licencia y revisión técnica).</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row justify-content-md-center">
+            <div class="col-12 col-md-5 col-lg-4">
+                <div class="card border-0 card-shadow card-3">
+                    <div class="row no-gutters align-items-center h-100">
+                        <div class="col-3 text-center">
+                            <img class="card-img card-img-1" src="img/icono_3.png"/>
+                        </div>
+                        <div class="col-9">
+                            <div class="card-body">
+                                <h5 class="card-title text-naranja">Documentación a tu alcance</h5>
+                                <div class="card-text">Accede a la información que necesitas del conductor, vehículo y fechas de pago de forma inmediata.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-12 col-md-5 col-lg-4">
+                <div class="card border-0 card-shadow card-4">
+                    <div class="row no-gutters align-items-center h-100">
+                        <div class="col-3 text-center">
+                            <img class="card-img card-img-2" src="img/icono_4.png" />
+                        </div>
+                        <div class="col-9">
+                            <div class="card-body">
+                                <h5 class="card-title text-naranja">Analiza la cobranza</h5>
+                                <div class="card-text">Contabiliza en tiempo real cantidades de dinero por cobrar a cada afiliado.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <img class="linea-gris" src="img/linea_gris.png" width="100vw" />
+        </div>
+    </div>
+
+    <!--Otro-->
+    <div id="otro" class="container-fluid col-10 col-lg-12">
+        <div class="text-center">
+            <p class="text-center relleno">Accede a la información de tus afiliados, documentación, fechas de pago y más; <b>de manera rápida, donde te encuentres y solo con acceso a internet.</b></p>
+            <img src="img/otro.png" class="imagen-otro" />
+        </div>
+        <img class="circulo-naranja1" src="img/circulo1.PNG" />
+    </div>
+
+    <!--Formulario-->
+    <div id="cotizar" class="align-items-center">
+        <form name="formulario" action="registro.php" method="post">
+        <!-- <form name="formulario" id="frm-contacto" action="email.php" method="POST"> -->
+            <div class="row justify-content-end" >
+                <div class="col col-md-6 align-items-center justify-content-center">
+                    <div class="form-group has-feedback has-feedback-left card border-naranja align-items-center">
+                        <img src="img/logo_blanco.png" class="img-fluid logo" />
+                        <div class="form-title text-center">Consigue tu demostración<br><b>¡ GRATIS !</b></div>
+                        <div class="col-auto">
+                            <label class="sr-only" for="inlineFormInputGroup">Nombres</label>
+                            <div class="input-group">
+                              <div class="input-group-prepend">
+                                <div class="input-group-text">
+                                    <img src="img/icono_nombre.png"/>
+                                </div>
+                              </div>
+                              <input type="text" name="nombres" class="form-control" id="nombre" placeholder="Nombres:">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <label class="sr-only" for="nombre">Empresa</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <img src="img/icono_empresa.png"/>
+                                    </div>
+                                </div>
+                                <input type="text" name="empresa" class="form-control" id="empresa" placeholder="Empresa:">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <label class="sr-only" for="empresa">E-mail</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <img src="img/icono_email.png"/>
+                                    </div>
+                                </div>
+                                <input type="text" name="email" class="form-control" id="emial" placeholder="E-mail:">
+                            </div>
+                        </div>
+                        <div class="col-auto">
+                            <label class="sr-only" for="emial">Whatsapp</label>
+                            <div class="input-group">
+                                <div class="input-group-prepend">
+                                    <div class="input-group-text">
+                                        <img src="img/icono_whatsapp.png"/>
+                                    </div>
+                                </div>
+                                <input type="text" name="whatsapp" class="form-control" id="inlineFormInputGroup" placeholder="Whatsapp:">
+                            </div>
+                        </div>
+                        <button id="btn-enviar" type="submit" class="btn btn-primary btn-block"  >Lo adquiero</button>
+                        <!-- <button type="button" class="btn btn-primary btn-block" data-toggle="modal" data-target="#confirmacion" value="LO ADQUIERO AHORA"> -->
+
+                    </div>
+                    <div class="row">
+                        <p class="nota-contenido text-center">*Los datos proporcionados son confidenciales y<br>para uso exclusivo de Corporación Vespro.</p>
+                    </div>
+                </div>
+            </div>
+        </form>
+    </div>
+    <div class="text-center">
+        <img class="linea-gris" src="img/linea_gris.png" width="100vw">
+    </div>
+
+    <!--Herramientas-->
+    <div id="herramientas" class="container-fluid align-items-center">
+        <div class="container-fluid align-items-center text-center" style="margin-bottom: 60px;">
+            <img src="img/cinco.png" class="img-fluid col-12 col-md-8 col-lg-7 col-xl-5">
+        </div>
+        <div class="container-fluid">
+            <div class="row align-items-center invertir">
+                <img class="circulo-naranja2" src="img/circulo2.PNG"/>
+                <div class="col-md-5 imagen" style="z-index: 1;">
+                    <img id="img-herramientas" src="img/estado_financiero.png"/>
+                </div>
+                <div class="col-md-6" style="z-index: 1;">
+                    <div class="row">
+                        <a class="divisiones">Estado Financiero</a>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Controla tus ingresos, egresos, depósitos y transferencias.</p>
+                        </div>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Revisa la cantidad de dinero que tienes en caja, en tu cuenta bancaria y la suma de ambas.</p>
+                        </div>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Observa los montos de dinero de fechas anteriores.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-5 imagen" style="z-index: 1;">
+                    <img id="img-herramientas" src="img/operaciones.png"/>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <a class="divisiones">Operaciones</a>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Registra ingresos, egresos, depósitos y transferencias en tiempo real.</p>
+                        </div>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Obtén la información de saldos pendientes de cada afiliado.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row align-items-center invertir">
+                <img class="circulo-naranja3" src="img/circulo3.PNG" />
+                <div class="col-md-5 imagen" style="z-index: 1;">
+                    <img id="img-herramientas" src="img/informes.png"/>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <a class="divisiones">Informes</a>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Revisa los movimientos de dinero de tu empresa en un periodo de tiempo, del día, semana o mes.</p>
+                        </div>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Obtén información detallada de quién pagó, cuánto pagó y quién registró el pago.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-5 imagen" style="z-index: 1;">
+                    <img id="img-herramientas" src="img/contactos.png"/>
+                </div>
+                <div class="col-md-6">
+                    <div class="row">
+                        <a class="divisiones">Contactos</a>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Revisa datos detallados de tus afiliados, vehículos y documentación/vigencia.</p>
+                        </div>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Registra a tus proveedores.</p>
+                        </div>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Registra a tus colaboradores.</p>
+                        </div>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Registra a tus usuarios.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row align-items-center invertir">
+                <img class="circulo-naranja2" src="img/circulo2.PNG"/>
+                <div class="col-md-5 imagen" style="z-index: 1;">
+                    <img id="img-herramientas" src="img/tareas_por_realizar.png"/>
+                </div>
+                <div class="col-md-6" style="z-index: 1;">
+                    <div class="row">
+                        <a class="divisiones">Tareas por realizar</a>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Revisa la relación de afiliados con deudas pendientes.</p>
+                        </div>
+                    </div>
+                    <div class="row centro-10px">
+                        <div class="col-1">
+                            <img src="img/check_naranja.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Revisa documentación por vencer y caducados.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="text-center">
+            <img src="img/linea_gris.png" class="linea-gris" />
+        </div>
+    </div>
+
+    <!--Herramientas adicionales-->
+    <div id="herramientas_adicionales">
+        <div class="text-center negrita">Toda la información a tu alcance</div>
+        <div class="text-center divisiones">El Sistema incluye:</div>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="card border-0 card-shadow col-8 col-md-6 col-lg-4">
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="img/check_blanco.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Descargar información completa en formato Excel o PDF.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid col-7 col-md-3 img imagen-herramientas-adicionales">
+                    <img src="img/excel_pdf.png" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="card border-0 card-shadow col-8 col-md-6 col-lg-4">
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="img/check_blanco.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Imprimir todos los comprobantes de las operaciones realizadas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid col-7 col-md-3 img imagen-herramientas-adicionales">
+                    <img src="img/comprobante.png" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="card border-0 card-shadow col-8 col-md-6 col-lg-4">
+                    <div class="row">
+                        <div class="col-1">
+                            <img src="img/check_blanco.png" class="check"/>
+                        </div>
+                        <div class="col-11">
+                            <p class="divisiones2">Revisar información ordenada de fechas de cumpleaños de tus afiliados según el mes.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-fluid col-7 col-md-3 img imagen-herramientas-adicionales">
+                    <img id="calendario" src="img/calendario.png" class="img-fluid"/>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!--E-book-movil-->
+    <!--div id="e-book" class="container-fluid text-center align-items-center justify-content-center">
+        <div class="row">
+            <p class="title-libro">¿Quieres <b>mejorar la administración</b> de tu empresa?</p>
+            <p class="texto-libro">Pasos fundamentales para administrar tu empresa de la manera adecuada y en menos tiempo.</p>
+            <a class="btn-blanco">¡DESCÁRGALO GRATIS!</a>
+        </div>
+    </div-->
+    
+    <!--E-book-PC-->
+    <!--div id="e-book-pc" class="container-fluid text-center align-items-center justify-content-center">
+        <div class="row">
+            <p class="title-libro col-8 offset-3">¿Quieres <b>mejorar la <br> administración</b> de tu empresa?</p>
+            <p class="texto-libro col-8 offset-3">Pasos fundamentales para administrar tu empresa de la <br> manera adecuada y en menos tiempo.</p>
+            <a class="btn-blanco col-5 offset-3 align-self-center">¡DESCÁRGALO GRATIS!</a>
+        </div>
+    </div-->
+
+    <!--Testimonios-PC-->
+    <div id="testimonios" class="prefooter">
+        <div class="circulo-naranja6"></div>
+        <h1 class="text-center negrita">Historias de nuestros clientes</h1>
+        <div class="text-center">
+            <img src="img/linea_naranja.png" width="100px" class="linea-naranja" />
+        </div>
+        <div id="carouselExampleIndicators" class="carousel slide align-self-center col-12 col-md-11 justify-content-center align-items-center" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner align">
+                <div class="carousel-item active" >
+                    <div class="card card2 border-0 card-shadow align-items-center col-10 col-lg-8">
+                        <img class="cliente col-md-5" src="img/cliente1.png" />
+                        <img class="comillas" src="img/comillas.png" />
+                        <p class="testimonio">Desde mediados de este año, he venido utilizando el sistema para cubrir exitosamente todos los procesos que realizo en mi empresa, ahora sé con mucha facilidad quién me debe y cuánto me debe, tengo ordenada toda la documentación de los conductores, sus vehículos, y al mismo tiempo registro los ingresos y salidas de dinero, todo desde mi celular.</p>
+                        <p class="testimonio" style="align-self: flex-end; margin-top: 0px; margin-bottom: 0px;">Gracias Vespro.</p>
+                        <p class="testimonio-firma" style="align-self: flex-end;">Juan Pérez</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card card2 border-0 card-shadow align-items-center col-10 col-lg-8">
+                        <img class="cliente col-md-5" src="img/cliente2.png" />
+                        <img class="comillas" src="img/comillas.png" />
+                        <p class="testimonio">Antes de adquirir el sistema, yo utilizaba un cuaderno para registrar a todos mis afiliados, sus deudas y más, todo iba bien hasta que un día desafortunado se perdió mi cuaderno y ya no tenía nada de información... Ahora que tengo el software se acabó mi preocupación, ya que todos los días se guarda una copia de toda mi información y además puedo descargar una copia en formato excel o pdf a mi computadora o celular.</p>
+                        <!--p class="testimonio" style="align-self: flex-end; margin-top: 0px; margin-bottom: 0px;">Gracias Vespro.</p-->
+                        <p class="testimonio-firma" style="align-self: flex-end;">Luis Quispe</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card card2 border-0 card-shadow align-items-center col-10 col-lg-8">
+                        <img class="cliente col-md-5" src="img/cliente3.png" />
+                        <img class="comillas" src="img/comillas.png" />
+                        <p class="testimonio">Lo interesante de Vespro es que hacen sistemas muy prácticos y fáciles de utilizar, con un click veo cuánto dinero tengo en la empresa, con otro click registro las operaciones de ingreso y salidas de dinero, con otro click reviso la información de mis afiliados y así... Con este sistema tengo todo lo que necesito a un click de distancia. Gracias por facilitarnos las cosas.</p>
+                        <!--p class="testimonio" style="align-self: flex-end; margin-top: 0px; margin-bottom: 0px;">Gracias Vespro.</p-->
+                        <p class="testimonio-firma" style="align-self: flex-end;">Manuel García</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="text-center">
+                <img class="linea-gris" src="img/linea_gris.png" width="100vw" />
+            </div>            
+        </div>
+    </div>
+
+    <!--Testimonios-movil-->
+    <div id="testimonios-movil" class="prefooter">
+        <div class="circulo-naranja6"></div>
+        <h1 class="text-center negrita">Historias de nuestros clientes</h1>
+        <div class="text-center">
+            <img src="img/linea_naranja.png" width="100px" class="linea-naranja" />
+        </div>
+        <div id="carousel-testimonios-movil" class="carousel slide" data-ride="carousel">
+            <ol class="carousel-indicators">
+                <li data-target="#carousel-testimonios-movil" data-slide-to="0" class="active"></li>
+                <li data-target="#carousel-testimonios-movil" data-slide-to="1"></li>
+                <li data-target="#carousel-testimonios-movil" data-slide-to="2"></li>
+            </ol>
+            <div class="carousel-inner">
+                <div class="carousel-item active" style="z-index: 1; position: relative;">
+                    <div class="card card2 border-0 card-shadow align-items-center col-10">
+                        <img class="cliente col-md-4" src="img/cliente1.png" />
+                        <p class="testimonio">Desde mediados de este año, he venido utilizando el sistema para cubrir exitosamente todos los procesos que realizo en mi empresa, ahora sé con mucha facilidad quién me debe y cuánto me debe, tengo ordenada toda la documentación de los conductores, sus vehículos, y al mismo tiempo registro los ingresos y salidas de dinero, todo desde mi celular.</p>
+                        <p class="testimonio" style="align-self: flex-end; margin-top: 0px; margin-bottom: 0px;">Gracias Vespro.</p>
+                        <p class="testimonio-firma" style="align-self: flex-end;">Juan Pérez</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card card2 border-0 card-shadow align-items-center col-10">
+                        <img class="cliente col-md-4" src="img/cliente2.png" />
+                        <p class="testimonio">Antes de adquirir el sistema, yo utilizaba un cuaderno para registrar a todos mis afiliados, sus deudas y más, todo iba bien hasta que un día desafortunado se perdió mi cuaderno y ya no tenía nada de información... Ahora que tengo el software se acabó mi preocupación, ya que todos los días se guarda una copia de toda mi información y además puedo descargar una copia en formato excel o pdf a mi computadora o celular.</p>
+                        <p class="testimonio-firma" style="align-self: flex-end;">Luis Quispe</p>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="card card2 border-0 card-shadow align-items-center col-10">
+                        <img class="cliente col-md-4" src="img/cliente3.png" />
+                        <p class="testimonio">Lo interesante de Vespro es que hacen sistemas muy prácticos y fáciles de utilizar, con un click veo cuánto dinero tengo en la empresa, con otro click registro las operaciones de ingreso y salidas de dinero, con otro click reviso la información de mis afiliados y así... Con este sistema tengo todo lo que necesito a un click de distancia. Gracias por facilitarnos las cosas.</p>
+                        <p class="testimonio-firma" style="align-self: flex-end;">Manuel García</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="text-center">
+                <img class="linea-gris" src="img/linea_gris.png" width="100vw" />
+            </div>            
+        </div>
+    </div>
+
+    <!--Otros productos-->
+    <div id="otros_productos" class="prefooter container-fluid">
+        <h2 class="text-center negrita">Más servicios a tu disposición</h2>
+        <div class="text-center">
+            <img src="img/linea_naranja.png" width="100px" class="linea-naranja" />
+        </div>
+        <div class="container-fluid">
+            <div class="row align-items-center">
+                <div class="col-md-4">
+                    <div class="container-fluid">
+                        <div class="row h-100">
+                            <div class="col text-center">
+                                <h2 class="divisiones">Sistema GPS</h2>
+                                <div class="text-center">
+                                    <p class="divisiones2">Desarrollamos Sistemas de Gestión y localización de Vehículos en tiempo real...</p>
+                                </div>
+                                <p class="divisiones3">Moderno Sistema Tecnológico fácil de utilizar, que te permitirá tener el control de tu vehículo las<br>24 horas del día.<br>
+                                <a class="btn btn-primary" href="https://vespro.io/gps/">+ Información</a></p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <img class="img-fluid col-md-4" style="margin-bottom: 30px; z-index: 2;" src="img/maqueta.png" />
+                <img id="fondo_maqueta" class="img-fluid" src="img/fondo_maqueta.png" />
+            </div>
+        </div>
+    </div>
+
+    <!--Footer-->
+    <footer id="pie" class="mastfoot container-fluid">
+        <div class="align-items-center">
+            <div class="container-fluid text-center align-items-center">
+                <div class="container-fluid align-items-center">
+                    <div class="final-text">Copyright &copy; Corporación Vespro.<br>Todos los derechos reservados.</div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Modal confirmado -->
+    <div class="modal fade" id="modal-contacto" tabindex="-1" role="dialog" aria-labelledby="modal-contacto" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <button type="button" class="close btn-modal-cerrar" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <div class="card-img text-center">
+                        <img src="img/logo-modal.png" alt=""/>
+                    </div>
+                    <div class="card-text">
+                        <h4 class="modal-heading ">Enhorabuena cliente</h4>
+                        <p class=" modal-lead-in"><span>El Pack esta en camino</span> y en unos  minutos te <br> enviaremos información</p>
+                        <p class="modal-lead-in-2"><strong>*</strong> Revisa todas las entradas de tu correo (ej. span, promociones, notificaciones) para ver el mail con la información solitada.</p>
+                        <hr class="modal-raya raya">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!--  modal de error -->
+    <div class="modal fade" id="modal-error" tabindex="-1" role="dialog" aria-labelledby="modal-error" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
+            <div class="modal-content">
+                <button type="button" class="close btn-modal-cerrar" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+                <div class="modal-body">
+                    <div class="card-img text-center">
+                        <img src="img/logo-modal.png" alt=""/>
+                    </div>
+                    <div class="card-text">
+                        <h4 class="modal-heading ">Advertencia </h4>
+                        <p class=" modal-lead-in" id="error">hola</p>
+                        <hr class="modal-raya raya">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/gasparesganga-jquery-loading-overlay@2.1.6/dist/loadingoverlay.min.js"></script>
+    <script>
+        $('body').on('click', '.btn-navegacion', function(){
+            $('.nav-navegacion').css('opacity','0%');
+            $('.nav-navegacion').css('display','none');
+        });
+        var estado = 0;
+        $('body').on('click', '.button-navegacion', function() {
+            if (estado == 0) {
+                $('.nav-navegacion').css('opacity','1');
+                $('.nav-navegacion').css('display','block');
+                estado = 1;
+            } else {
+                $('.nav-navegacion').css('opacity','0%');
+                $('.nav-navegacion').css('display','block');
+                estado = 0;
+            }
+        });
+        var nav = document.getElementById('mainNav');
+        window.onscroll = function() {
+            if (window.pageYOffset > 100) {
+                nav.classList.add("orange");
+            } else {
+                nav.classList.remove("orange");
+            }
+        }
+    </script>
+    <script>
+        $(document).ready(function() {
+            var require=[
+                {
+                    name: "nombres",
+                    validation: [
+                        ["required","Nombre necesario"],
+                        ["max","100", "Nombre no debe ser mayor a 100 carácteres "],
+                    ]
+                },
+                {
+                    name: "empresa",
+                    validation: [
+                        ["required","Empresa necesario"],
+                        ["max","100", "Empresa no debe ser mayor a 100 carácteres "],
+                    ]
+                },
+                {
+                    name: "whatsapp",
+                    validation: [
+                        ["required","whatsapp necesario"],
+                        ["max","12", "Whatsapp no debe ser mayor a 12 dígitos "],
+                    ]
+                },
+                {
+                    name: "email",
+                    validation: [
+                        ["required","Mail necesario"],
+                        ["email","Ingresar un E-mail valido"],
+                        ["max","100", "Correo no debe ser mayor a 100 carácteres "],
+                    ]
+                },
+            ];
+            function validation_form() {
+                var v_continue=true;
+                $('.form-group').removeClass('error');
+                $('.form-group span').remove();
+                for (let i = 0; i < require.length; i++) {
+                    const data = require[i];
+                    for (let j = 0; j < data.validation.length; j++) {
+                        const validation = data.validation[j];
+                        var error=false;
+                        switch (validation[0]) {
+                            case "required":
+                                
+                                if ($('[name='+data.name+']').val().trim()==="") {
+                                    $('[name='+data.name+']').parent().addClass('error').append('<span>'+validation[1]+'</span>');                        
+                                    error=true;
+                                }
+                                break;
+                            case "email":
+                                if (($('[name='+data.name+']').val()).search('@')==-1) {
+                                    $('[name='+data.name+']').parent().addClass('error').append('<span>'+validation[1]+'</span>');                        
+                                    error=true;
+                                }
+                                break;
+                            case 'max':
+                                if (($('[name='+data.name+']').val()).length>validation[1]) {
+                                    $('[name='+data.name+']').parent().addClass('error').append('<span>'+validation[2]+'</span>');                        
+                                    error=true;
+                                }
+                                break;
+                        }
+                        if (error) {
+                            v_continue=false;
+                            break;
+                        };
+                    }
+                    
+                }
+                return v_continue;
+            }
+            $('#frm-contacto').submit(function(e) {
+                e.preventDefault();
+                if (validation_form()) {
+                    $('#cotizar').LoadingOverlay('show',
+                        {
+                            image       : "http://gps.vespro.ml/img/icon.png",
+                            imageAnimation: "2000ms fadein",
+                        }
+                    );
+                    $.ajax({
+                        type: 'POST',
+                        url: $(this).attr('action'),
+                        data: $(this).serialize(),
+                        success: function(data) {
+                            var respuesta=data;
+                            $('#cotizar').LoadingOverlay('hide');
+                            // var respuesta = JSON.parse(data);
+                            if (respuesta.status == "OK"){
+                                $('#frm-contacto')[0].reset();
+                                $('#modal-contacto').modal('show');
+                            }else{
+                                $('#modal-error').modal('show');
+                                $('#error').text(respuesta.data);
+                            }
+
+                        }
+                    }) 
+                }
+            })
+        });
+    </script>
+</body>
+</html>
