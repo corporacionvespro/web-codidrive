@@ -22,7 +22,7 @@ try {
     #$mail->SMTPAutoTLS = false;			// Descomentar si se requiere desactivar completamente TLS (sin cifrado)
  
     $mail->setFrom('codi.drive@gmail.com');		// Mail del remitente
-    $mail->addAddress('henrydelgadomar@gmail.com');     // Mail del destinatario
+    $mail->addAddress('henrydelgadomar@gmail.com');     // Mail del destinatario henrydelgadomar@gmail.com
  
     $mail->isHTML(true);
     $mail->Subject = 'Contacto desde formulario';  // Asunto del mensaje
