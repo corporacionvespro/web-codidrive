@@ -13,7 +13,7 @@ if (isset($_POST["imagen_base64"])) {
 
     // Ruta donde se guardará la imagen en el servidor
     //$ruta_imagen = 'ruta/donde/guardar/las/imagenes/' . $nombre_imagen;
-    $ruta_imagen = $nombre_imagen;
+    $ruta_imagen = "codidrive/categorias_asociados/".$nombre_imagen;
     // Guardar la imagen en el servidor
     file_put_contents($ruta_imagen, $imagen_data);
 
