@@ -33,7 +33,6 @@ try{
         // $mail->Port       = 587;                                    // TCP port to connect to
         // $mail->Port       = 465;                                    // TCP port to connect to
         $mail->Port       = 25;                                    // TCP port to connect to
-    
         //Recipients
         $mail->setFrom('codi.drive@gmail.com', 'Codi Drive');
         $mail->addAddress('codi.drive@gmail.com');     // Add a recipient
